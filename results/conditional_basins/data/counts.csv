@@ -1,0 +1,13 @@
+taup,section,classification,n
+1.16,clearing,negative_running,1
+1.16,clearing,recovery,4
+1.16,equilibrium,negative_running,45
+1.16,equilibrium,recovery,43
+1.18,clearing,negative_running,2
+1.18,clearing,recovery,3
+1.18,equilibrium,negative_running,51
+1.18,equilibrium,recovery,39
+1.2,clearing,negative_running,2
+1.2,clearing,recovery,3
+1.2,equilibrium,negative_running,56
+1.2,equilibrium,recovery,32

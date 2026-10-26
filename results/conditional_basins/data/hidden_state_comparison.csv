@@ -1,0 +1,16 @@
+taup,theta_rad,df_Hz,clearing_case,equilibrium_case,clearing_class,equilibrium_class,clearing_horizon_s,equilibrium_horizon_s,classification_matches,clearing_turns,equilibrium_turns
+1.16,1.3593331890117797,-0.0189545896798898,t0_actual_clearing_0001,t0_projected_clearing_0002,recovery,recovery,300.0,300.0,True,-0.216354594663246,-0.2163438198945742
+1.18,1.35948312834538,-0.0186552198064906,t1_actual_clearing_0038,t1_projected_clearing_0039,negative_running,negative_running,300.0,300.0,True,-41.666656611152106,-42.8716451279304
+1.2,1.3596282905616228,-0.0183651425272307,t2_actual_clearing_0075,t2_projected_clearing_0076,negative_running,negative_running,300.0,300.0,True,-44.70688532008567,-45.1907727831324
+1.16,-0.1,0.0,hidden_test_00267,focus_00114,recovery,recovery,1000.0,300.0,True,0.0159126007827491,0.0159155595169839
+1.16,-0.1,-0.005,hidden_test_00268,focus_00113,recovery,recovery,1000.0,300.0,True,0.0159125935990043,0.0159157548616798
+1.16,-0.125,-0.0025,hidden_test_00269,refine_00240,recovery,negative_running,1000.0,1000.0,False,0.019891476173776,-159.11893856609265
+1.16,-0.15,0.0,hidden_test_00270,t0_coarse_0011,negative_running,negative_running,1000.0,300.0,True,-161.4255431402481,-44.72941177951002
+1.18,-0.1,0.0,hidden_test_00271,focus_00136,recovery,recovery,1000.0,300.0,True,0.0159126008043073,0.015915559490093
+1.18,-0.1,-0.005,hidden_test_00272,focus_00135,recovery,recovery,1000.0,300.0,True,0.0159125937423752,0.0159157666513486
+1.18,-0.125,-0.0025,hidden_test_00273,refine_00241,recovery,negative_running,1000.0,1000.0,False,0.0198914770840258,-160.68156269829447
+1.18,-0.15,0.0,hidden_test_00274,t1_coarse_0048,negative_running,negative_running,1000.0,300.0,True,-162.95438591275786,-45.09172508807485
+1.2,-0.1,0.0,hidden_test_00275,focus_00158,recovery,recovery,1000.0,300.0,True,0.0159126008255184,0.0159155594630934
+1.2,-0.1,-0.005,hidden_test_00276,focus_00157,recovery,recovery,1000.0,300.0,True,0.0159125939097989,0.0159157798138357
+1.2,-0.125,-0.0025,hidden_test_00277,refine_00242,recovery,negative_running,1000.0,1000.0,False,0.0198914781448208,-162.13865297110505
+1.2,-0.15,0.0,hidden_test_00278,t2_coarse_0085,negative_running,negative_running,1000.0,300.0,True,-164.1217295799474,-45.27493655302232

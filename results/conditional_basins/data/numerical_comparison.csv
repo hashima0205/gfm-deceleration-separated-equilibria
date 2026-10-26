@@ -1,0 +1,3 @@
+baseline,strict,classification_A,classification_B,turns_A,turns_B,turns_difference,algebraic_residual_A,algebraic_residual_B
+refine_00247,strict_00279,recovery,recovery,-0.2124710932628155,-0.2124710932627704,4.5102810375396984e-14,4.071326609178527e-13,1.5021317523178368e-12
+focus_00148,strict_00280,negative_running,negative_running,-43.06047459147742,-43.060474591666654,-1.8923174138762988e-10,4.681643961390591e-12,1.235139768240856e-11

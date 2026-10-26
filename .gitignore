@@ -20,5 +20,6 @@ __pycache__/
 .aws/
 .codex/
 /validation_previous_layout/
+/basin_recalculation/
 /provenance/source_snapshot/**/output/runs/
 *.zip

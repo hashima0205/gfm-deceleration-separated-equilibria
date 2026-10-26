@@ -1,0 +1,2610 @@
+{
+  "source_study": "32_separated_equilibrium_basins",
+  "method": "Existing saved samples only. Selected physical observables; no temporal decimation. V and individual df derived from saved complex U and internal omega. Initial states and per-case JSON consolidated without discarding entries. Repeated case definitions for horizon extensions were consolidated using the final row; original_jobs.csv preserves the original manifest. Published figures were rerendered from the saved fixed mesh and saved trajectories; explanatory labels were clarified, with no changes to classification.",
+  "files": [
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/anchor_reproduction.csv",
+      "sha256": "e67bd70c35f53bbfe37fbeaca568ad6791108faa9cba60b60312268bd74138e3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/classification.csv",
+      "sha256": "f82eda9eb7f6eacb0f769b12d5760868909bb815efae722cad0fa23c310b931b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/counts.csv",
+      "sha256": "a35880fc2af6631ccd28cf0da312702911f86cb8606beba90a94ee1a588ef75f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/equilibrium_1.16.csv",
+      "sha256": "2ddbcad1dcc0c546ee10c78317945768af2871ae552e2f74f862abd6becf14ad"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/equilibrium_1.18.csv",
+      "sha256": "bd5cac9438a04559ccd68a8e2061a8fa1ae177ee409535b74e0a53514c37b179"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/equilibrium_1.20.csv",
+      "sha256": "6e6de671b29c78a32061d55664d596a323c580348ddb587426043d4c159198da"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/hidden_state_comparison.csv",
+      "sha256": "e71084d537e0eedbef7b3756c5836e9dd85453aeda870f5746932a3abf534ee5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/initialization_audit.csv",
+      "sha256": "5bcaab9bbb5aecbb487431d66bbd1ee65e3b5eeeb05ee70d90d266af69f37858"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/jobs.csv",
+      "sha256": "c49a01cdae62bf1c4bfdca8e9c7ac332e7430b2ee1b230796b14cc02e5a8c8a5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/machine_metrics.csv",
+      "sha256": "9f5fb5739b3b2922f511ada1447f21a3222e8716de018afb9eb75b8c1a2cfa77"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/numerical_comparison.csv",
+      "sha256": "a9028bfc18a0119f9133dd7a218d92315e5899fc429c006d885a536d5e93e0f5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/plot_samples_tau1.16.csv",
+      "sha256": "ad263dbc138457890495ed883a12e13b587503f1d5ee11c7f693a50d3dcd3dd8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/plot_samples_tau1.18.csv",
+      "sha256": "9223a249c1b45359137b0f71255adc9ba1d20dc46b319157aa4ce229e23e9516"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/plot_samples_tau1.20.csv",
+      "sha256": "2c40c318bfe713f2af2a2116cd91bd6369a194bc1703b59eb16d758069472efa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/plot_triangles_tau1.16.csv",
+      "sha256": "52386400f78ba03b7361ed0af9df12eaf8caf03ac1ecfde2977fc275e491cb85"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/plot_triangles_tau1.18.csv",
+      "sha256": "ac2e8bb637a66613fe1e3fc5845ca919d49f4655d1e1a82ea6f54b1d199761fb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/plot_triangles_tau1.20.csv",
+      "sha256": "1bade462e3c542b2fd1dca3d455c6941c6b5a4844d596c57cb4f5f75498f4ebd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/states.csv",
+      "sha256": "4cd6fb7e9e76576fe46fa6365fe0d2e0a69e3895baa72c0c90c94bf682a75001"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/transition_edges_before_refinement.csv",
+      "sha256": "dbfd464bab288bbf25084ddfb2f5ba32ddf8e684ae3bb9097660ab96ee4e73d3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/validation_pairs.csv",
+      "sha256": "46be137165300f159f95cca3f06953d37b8b3d21f7805ef57dd7827f3317b909"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/definition.json",
+      "sha256": "e2132e624c1fc671702bd497bac3e040f38b440140282488b5eb414b5dcfdd08"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/section_stable.csv",
+      "sha256": "4fa80cda574fd5a9e11edfb7a1ea90d61a22360cb2ca4eb36910f5be3292322a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/section_saddle.csv",
+      "sha256": "f26011bff33c7c74475d977e17887ef817a23cf4ced42e1c5d2d031570c277c0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/clearing_1.16.csv",
+      "sha256": "fad30d5ccef38f024b003f8d56297d9641eb0832063937b27a4ee34a9096ee07"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/clearing_1.18.csv",
+      "sha256": "c9404d7d0ff731c86bbed83de75bb45ed98d29e9ac5ae3d494f1abc753156c1a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/clearing_1.20.csv",
+      "sha256": "b683ca140aee874092085c355c574ace7ae356ddbc78826e946637ccd0090ffa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/parameters_1.16.csv",
+      "sha256": "3c642dfcd172221d3a9fbd444cc801b06a5e7ab31fe6884f92279082f38e1b08"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/parameters_1.18.csv",
+      "sha256": "d6502465b6cc4e47bdb3bf0754fbdbc4c1f882eeaa874abd2c3ebdeb86164c70"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/references/parameters_1.20.csv",
+      "sha256": "b89ab95b1545e9abb7604c27262784c755e596ab94dd8d8c468909c0f4d0198c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/REPORT.md",
+      "sha256": "f880688f969a88c27480c2687ed6fcfd900d1e55579bb57f0471e3757d08b39d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/METHODS.md",
+      "sha256": "e0bf3197e1e818df386ebb1af85c81ea9504ef7cb774e200288633419f71afba"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/CAPTIONS.md",
+      "sha256": "e46e5346794d372e35aabce22b7375446d6fe5a56b10f64340e6506242607587"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basin_tau1.16.pdf",
+      "sha256": "8f25ccec5d4a766bcb172082ae735444058fa1520b8cdd7221a47b05015dceb0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basin_tau1.16.png",
+      "sha256": "a9caa3c5f23d9c3de65549a7a7e3ec0593318bd71640094a2b6290d6e690aa64"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basin_tau1.18.pdf",
+      "sha256": "3dc71250535025727fa3efe995047510a0b41ab7b070563cf782d1116480fc5c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basin_tau1.18.png",
+      "sha256": "9d02d5aa2e2bd9b7a3b9435c047af2d43ab04e4a26bf786749ce7d03dfd14aa6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basin_tau1.20.pdf",
+      "sha256": "b9dbb7ed3d3a76dfcb870d8432a610f66a054118364e730ac2432889193e7651"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basin_tau1.20.png",
+      "sha256": "327f5be68fb2c444ed4b1e6ee2ae976736812369123c554b5c4e957ea9864027"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basins_comparison.pdf",
+      "sha256": "34f6041e89668db54b72b6f05b36fc8d91258468ac86adbdce71216f807d38f4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basins_comparison.png",
+      "sha256": "3e043f7570655ab8994a6c41a9a3fd08741645c8da0a075f3015dcf18ec6cf47"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basins_zoom.pdf",
+      "sha256": "aee9a4d6b324dfd1c32525ccae4484d324df42012dee0e7c6e1ff501e3b81940"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/conditional_basins_zoom.png",
+      "sha256": "496d8c8f88f3a00c1fa0a30fd6a199327d90270e21bcae47d69b71047a118aa1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/hidden_state_sensitivity.pdf",
+      "sha256": "720cf95c8a572e6be525936efa320468aa8e7a2d1707c19ab3aa61d771fc26f7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/figures/hidden_state_sensitivity.png",
+      "sha256": "cfae362ebb9d138bea66763a0d0541e023deba251e77ca0d972fac5890cc2803"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_stable_0000.csv",
+      "sha256": "4fa80cda574fd5a9e11edfb7a1ea90d61a22360cb2ca4eb36910f5be3292322a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_stable_0000.json",
+      "sha256": "b94bdfa247dfc02eeb8cb43c86cba836efa4411a42790fd90c89f3b8e67e3ab5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_actual_clearing_0001.csv",
+      "sha256": "6fb4a8aa5f6549530b2ec98bf46dac16ff39b2fd98e6490d25b45b2967868212"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_actual_clearing_0001.json",
+      "sha256": "7956295919b4a8b3a9bfe6c160f43202c857c773f5b760959ef38fcc5af0f9b1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_projected_clearing_0002.csv",
+      "sha256": "318f25cdca3b6100255b29bfc984f96e92ca5d5152a2af8b51cf6f08043e18ea"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_projected_clearing_0002.json",
+      "sha256": "d0ead49a6043bc9a5f23f2cd129d2703df9ab5bdd91e290cdfcb7bb93f2b80df"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0003.csv",
+      "sha256": "e4dec4e3cd07d64683cbecf39a391bb65015b165a3c0510c6d2cd7a60edef224"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0003.json",
+      "sha256": "2ee4275e9b58b17c8a6d1d5e22d9d9f4af07d1f3be0c843a8e9b3c4ff9f05a19"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0004.csv",
+      "sha256": "ce23277c5960edbb3d56726047582d126c5604acac34eeb459945156cce5b9fe"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0004.json",
+      "sha256": "8a1fc67193fe2b89d147ac17839bf6f53400e1dccb6fc12b4c4a59d02b03bb4c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0005.csv",
+      "sha256": "c4feaffb7a42549e0863070180296a57390a90a96c7cc8d7a09ea2c45d48c868"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0005.json",
+      "sha256": "e0444d00935364323eb8b561443183d8211e1d4bc99727d020762f4476ed3e05"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0006.csv",
+      "sha256": "43de29c291fc83553ea6a12fc6fb034661f8bd3513c1ba83f6945897fcfa9c07"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0006.json",
+      "sha256": "6dba811f657e70a25346ea764f837ebbc223fb83c92d9366bfa27a667fa5118f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0007.csv",
+      "sha256": "4fdf0759f55feedfef0bd7a0477458d02cc64c39723139bb8d1a90dc441f0625"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0007.json",
+      "sha256": "2fbe67c0a4e24869fe61cae0b3d652d18ef4b2caee1bcb71da55158facfee1b9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0008.csv",
+      "sha256": "de255159deefa91b56929741175a5a3d6bccfbfdd5fb86a43d79192556e76543"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0008.json",
+      "sha256": "59d7ef488bd174c07db5cc8f34fb734144dad5a2ad0b8750eae62d93a07f7dd4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0009.csv",
+      "sha256": "f6d271eb0ad3477419f1ce2dde2d6e72ded1ba37a34ac3e36f38d57b31f4bbba"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0009.json",
+      "sha256": "cc52ecef242c94eaab79ffd01ebf156bcfacb48400d4951c2c5bba21b9d08d87"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0010.csv",
+      "sha256": "5af966b9346bf323ccb2677ab56bf7588c67240674a78a4daea4bb39d2d0ae83"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0010.json",
+      "sha256": "bb3e830116c20380e332e7b60c4cdf9721f60ce10450b31e7f4e9c25e30e8a04"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0011.csv",
+      "sha256": "cf0c154700e628a5582151c91a34d23d14ceaca9b278026ed9727d5f88a3725f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0011.json",
+      "sha256": "049c104fefa0c9cf0fd634f45980a80ee9611bb40f654f381ee00d17a74f9f16"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0012.csv",
+      "sha256": "8ca1ef74b8c98acc8c109fd407de27e07ecc70ddc2b4aacf9bc28fab759118d5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0012.json",
+      "sha256": "e84e539b48d3aa1a2d867e27f7bc43a28e9c4cbe8814c25dc7104722b9e5fa0d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0013.csv",
+      "sha256": "16b4a704be0ab153c7791c477c7c5cfd68be63bd9b1d0d778ca2ded677ebaa63"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0013.json",
+      "sha256": "4dee9a8f02c51f26b23923ba8ffd15bd7c9e5de5f7880372c45eddff579c6856"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0014.csv",
+      "sha256": "e7abb93336066cda6603a265ce9fbb36d7794f12b7ceb5529006aad7ed28781f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0014.json",
+      "sha256": "7871092c17a466fdb446cb03f463de164e1a01d0af37c6603599ddd2ed38ecf0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0015.csv",
+      "sha256": "ffa218f3f2b3662b667ab5ea4beaf9d9ef240593d9005fdc80325cd1baa8fcc0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0015.json",
+      "sha256": "42ace990a977c77eeb032087de2c43f56ed4e0ba99102436a08d095252c4e549"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0016.csv",
+      "sha256": "cf9b6d01108ba63d68ca37772eba094c2ce17dfc1d2ca884d1833736a3bfbc5c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0016.json",
+      "sha256": "4679ec29242436697b0c7308e4286af7e5a3fdcf66f91660298ad17eab88c8c0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0017.csv",
+      "sha256": "fa08e7c596b98db469f5edc6e5030d19ea58c4676a912d722b19496820f8c38c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0017.json",
+      "sha256": "914a90a0b58b4366741d95b21638afb1e347896086c607af9a519b4c2cb1be96"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0018.csv",
+      "sha256": "ee93821c7445d484e064efec88b14dfc1ccf7c89afdb5ee9d8afb1d360a7a088"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0018.json",
+      "sha256": "f8fe7bf20f59b1e42ea6d7b4594c7c72b0a9e4e8d886e66c1d110f46684a9fa1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0019.csv",
+      "sha256": "1199b6070d2bf70e7d8bb99e339c5eded9eaa779d1a8d81019893bf37bc74e63"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0019.json",
+      "sha256": "ea1b2f7c98547b2ae8a79b6ac3d228d16dce1f1f8bb8c2901c64871538971b6f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0020.csv",
+      "sha256": "42ca9de157999453591bd50803df986a032ea2fa9fa43277778dd3710055ab98"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0020.json",
+      "sha256": "0b13cbdc41318cc9927f6267f0631f00c0f969397118ef9742f862034e8b212c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0021.csv",
+      "sha256": "574d0e2a9677dc2cc296771c7263c0d24a639238b5d0a5953aabf7592528937d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0021.json",
+      "sha256": "0792f8c75df5c97d8bf491ad64430dcadd853eaffdf49e9dc7a65b7bd0f5f4a6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0022.csv",
+      "sha256": "de63b33b3954363bcb29d7639c552d2c060b0a36b89e99a9c3e87bc572f185a9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0022.json",
+      "sha256": "394d10bd1e07823eca992e3e009bfc64bc5b0ea90b87f16b53e0663cba18cc06"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0023.csv",
+      "sha256": "00937a328eac73e11aa899f7f982b130c52bf0e20b3d60a97563deb6be035f15"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0023.json",
+      "sha256": "e5f30a86c7540749caf0dc61d311888894d5acf581ec47b2da2b5840fcdcc714"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0024.csv",
+      "sha256": "13cb133b3030ee75df04a720c0ac5fccb8bbadc2469e960f37e1a585d51d40e4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0024.json",
+      "sha256": "8a1d2b3cdeaf77b2a1a1b7639009676e3b16ca2fca69389abeea654c6125b935"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0025.csv",
+      "sha256": "37190de00d97c2fccc78f2ceed10608e402cbdded9b45d4ae75ea27461eb21c4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0025.json",
+      "sha256": "afdb4d04f08e62a26f68db2bd4ea4124b229e55b76b275bc56694a88fcc07f94"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0026.csv",
+      "sha256": "6dcefb7346730a3db49005a321c2366e6f41323fc5af2dbdba5525cd027668cf"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0026.json",
+      "sha256": "260bfc69dcdd6bca75837f3ad8786cf1805960b6b9014e8764ebfae64cb30b68"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0027.csv",
+      "sha256": "dcd49f4163a8200636074005c25a1ffd62b415dbe31ae1686cd8a27ddfdc25ab"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0027.json",
+      "sha256": "831f23f756adfdfe6ea26baa2f88c27cf3c6b376878d7dcdd15197d2789c0193"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0028.csv",
+      "sha256": "d23ce11ccdc3d4b97ed284c77cbee1b6554109b3ab38b508027774994eef5b9a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0028.json",
+      "sha256": "534a80967abfc367200fc170c15808189aa500ca927ff8f6b5b4206cf13843d0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0029.csv",
+      "sha256": "6730feb601945df1a5dfb9b41fd13b09991e6d166d939f17bac0cd670e2ca523"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0029.json",
+      "sha256": "064031e84a2c623c523859fad1bdcea1ded183e607998354904314307f64b865"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0030.csv",
+      "sha256": "2277ccfe7daf86c27c35b4aa56082d77d1fcae196afc2f533399bf7c289710df"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0030.json",
+      "sha256": "df425b17357989c4267ad27fcf6e7683a0e04777fdd898520d7d9d5a976f449d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0031.csv",
+      "sha256": "69b70bda04606d1b430bd48c512e86143cb080c3046eaa72f904af2c03140358"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0031.json",
+      "sha256": "41a1a59c29287e99d6f8c56cc065f8b53109ea7994484e1f11289f9cf3c17f87"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0032.csv",
+      "sha256": "00e903000fa0653e54e4f6d99c84af2f5f1c5f34e37dea784a156fed5056265c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0032.json",
+      "sha256": "b9ed0896f85b3f4fb4299b4198ccbf0f295141496f13a530bab5c73f6a83bc5b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0033.csv",
+      "sha256": "29f356633fc51e3de1050be8e5ba003a0c0eaf852757355bf0881ad0658b27fc"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0033.json",
+      "sha256": "b6d6fb93f05da874bea14422b5e40078db95ed1838ad69546b893943958764ac"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0034.csv",
+      "sha256": "bc34b857d993262bef58bf93df1afeff473939966f51aea24905f82ad25b4114"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0034.json",
+      "sha256": "90cc3a37f33b04e8b4a953ce794a1d44e252aa0195625f1c45c706864430b662"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0035.csv",
+      "sha256": "8782f047c10addfa3b15d9bcd71890974d88183976bd674f517eef5a03549458"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0035.json",
+      "sha256": "b75a054be04b9e6d5cc65054ec02507d8139145ec8e627775f6ad7adbdfe0c96"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t0_coarse_0036.csv",
+      "sha256": "3521c15f4511a68cbb1d722db935bf91cbf8cd77ff5a8d68a712c83021b1d2a6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t0_coarse_0036.json",
+      "sha256": "56ce7aaa7d172203b13b02108d12102b352c0251e788379133cea578a1bbfe71"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_stable_0037.csv",
+      "sha256": "4fa80cda574fd5a9e11edfb7a1ea90d61a22360cb2ca4eb36910f5be3292322a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_stable_0037.json",
+      "sha256": "d87e3eb264e6fdae830abffeff73f749b6ef4efc5f089a6e638372eda69d624f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_actual_clearing_0038.csv",
+      "sha256": "c6950ca12c3de90706e7777a53a55b596b6c3ad358f7f787ee21951c11158061"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_actual_clearing_0038.json",
+      "sha256": "793abd276740e7d8e90e83cd16605709448ce78801cfa547ac5fcf9ad55a7b6d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_projected_clearing_0039.csv",
+      "sha256": "cf65473e0227e8301f80f96887cb7cc7790128c8fa3927420a7431cb16aa481e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_projected_clearing_0039.json",
+      "sha256": "d5ec08332659d8ce84fd9c5f5b4785d85fb96db9b53740ed34b855a3900eeb6e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0040.csv",
+      "sha256": "e4dec4e3cd07d64683cbecf39a391bb65015b165a3c0510c6d2cd7a60edef224"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0040.json",
+      "sha256": "12767d1e94b799033563b96709fe5a412fd691ab50a95370782212b2e94afe0c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0041.csv",
+      "sha256": "ce23277c5960edbb3d56726047582d126c5604acac34eeb459945156cce5b9fe"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0041.json",
+      "sha256": "c8f9a9d6af92cd7c7db1ac855199515347ae53da1a2153bc035b6907429b3569"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0042.csv",
+      "sha256": "c4feaffb7a42549e0863070180296a57390a90a96c7cc8d7a09ea2c45d48c868"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0042.json",
+      "sha256": "a9080aa6e19bdbd1e0327cacc6282ef1503db5139b6778aa67f6442f66387582"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0043.csv",
+      "sha256": "43de29c291fc83553ea6a12fc6fb034661f8bd3513c1ba83f6945897fcfa9c07"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0043.json",
+      "sha256": "0667bf3d387f02362659e71b6e0539d1f147e76a92b460f627645f641a60920f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0044.csv",
+      "sha256": "4fdf0759f55feedfef0bd7a0477458d02cc64c39723139bb8d1a90dc441f0625"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0044.json",
+      "sha256": "4c14c0d0c1739a2436ad2a3b8d8c4a9dc136be85371cf0a3c2980cfac074c377"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0045.csv",
+      "sha256": "de255159deefa91b56929741175a5a3d6bccfbfdd5fb86a43d79192556e76543"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0045.json",
+      "sha256": "6f0b3f13225383af231d87ad4cd5d3334ac3f3131760f3851342b0c812692b14"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0046.csv",
+      "sha256": "f6d271eb0ad3477419f1ce2dde2d6e72ded1ba37a34ac3e36f38d57b31f4bbba"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0046.json",
+      "sha256": "09d1e46dfb0c529cfd4347f9388e2e54f727b73b0a3be4e2fbe737db923503b6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0047.csv",
+      "sha256": "5af966b9346bf323ccb2677ab56bf7588c67240674a78a4daea4bb39d2d0ae83"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0047.json",
+      "sha256": "3a7d4dd7e820a2ca542c26ce511b4f90c5063671e282bdcd55e68b10a22243a1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0048.csv",
+      "sha256": "cf0c154700e628a5582151c91a34d23d14ceaca9b278026ed9727d5f88a3725f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0048.json",
+      "sha256": "73c597aeca5d3646074e205965ae1a96b373f1ced8cc3c5fd3d6a684694b94c6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0049.csv",
+      "sha256": "8ca1ef74b8c98acc8c109fd407de27e07ecc70ddc2b4aacf9bc28fab759118d5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0049.json",
+      "sha256": "89472fae5d7af8bf60e223a325e9f663b3ebe01e0f178dd888edbb807f9f493b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0050.csv",
+      "sha256": "16b4a704be0ab153c7791c477c7c5cfd68be63bd9b1d0d778ca2ded677ebaa63"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0050.json",
+      "sha256": "6fb6ef019ee9ba92ae58115d54ffa1df7004b330273c304cae9507e5cc455abe"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0051.csv",
+      "sha256": "e7abb93336066cda6603a265ce9fbb36d7794f12b7ceb5529006aad7ed28781f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0051.json",
+      "sha256": "ff6f1e4358c4b53e82e3579592e63afe4eede1f0f1b2e415fe6d290e57d42a83"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0052.csv",
+      "sha256": "ffa218f3f2b3662b667ab5ea4beaf9d9ef240593d9005fdc80325cd1baa8fcc0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0052.json",
+      "sha256": "f3afe7c8ae9ea809a4d3595df401fcc14bcb6809a6b8914bbaf8041e7402399e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0053.csv",
+      "sha256": "cf9b6d01108ba63d68ca37772eba094c2ce17dfc1d2ca884d1833736a3bfbc5c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0053.json",
+      "sha256": "7a840da7bad09fbfde32d38a2d5166dec2e63bf62e6f2d453b64be8297d49404"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0054.csv",
+      "sha256": "fa08e7c596b98db469f5edc6e5030d19ea58c4676a912d722b19496820f8c38c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0054.json",
+      "sha256": "6b29d6f064e56fcbcb82cf1896a5c21385a6bbe103f3f03a0fba2533c45ec794"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0055.csv",
+      "sha256": "ee93821c7445d484e064efec88b14dfc1ccf7c89afdb5ee9d8afb1d360a7a088"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0055.json",
+      "sha256": "53977f06e19ea31954828b658e13faacb745122cddf07374500a6e4e01abb356"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0056.csv",
+      "sha256": "1199b6070d2bf70e7d8bb99e339c5eded9eaa779d1a8d81019893bf37bc74e63"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0056.json",
+      "sha256": "b94630f41888f294afed2ca0b594cbde78c97387d903b3fe41b6d115f4fef0eb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0057.csv",
+      "sha256": "42ca9de157999453591bd50803df986a032ea2fa9fa43277778dd3710055ab98"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0057.json",
+      "sha256": "891bdaefb644ee455a9e3713fe8573111e30091c7d35cf253b6b033c673861b8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0058.csv",
+      "sha256": "574d0e2a9677dc2cc296771c7263c0d24a639238b5d0a5953aabf7592528937d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0058.json",
+      "sha256": "e262d135a3ca4b909f183c83039dff89d5c592d377741e2dc13693faa97dc335"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0059.csv",
+      "sha256": "de63b33b3954363bcb29d7639c552d2c060b0a36b89e99a9c3e87bc572f185a9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0059.json",
+      "sha256": "812f9bac73f89464f76224295c39028de876278e63d15e9c282302eaeb8e878d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0060.csv",
+      "sha256": "00937a328eac73e11aa899f7f982b130c52bf0e20b3d60a97563deb6be035f15"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0060.json",
+      "sha256": "0b5bed4416e64b9474d5dd2f6b852bb321948e1878f779c0ec0a77852a9aad52"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0061.csv",
+      "sha256": "13cb133b3030ee75df04a720c0ac5fccb8bbadc2469e960f37e1a585d51d40e4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0061.json",
+      "sha256": "3bd77f9998dde9b762eca6f75be03649f23d7a93cc872977bc87f7b80260c228"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0062.csv",
+      "sha256": "37190de00d97c2fccc78f2ceed10608e402cbdded9b45d4ae75ea27461eb21c4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0062.json",
+      "sha256": "f3507ddcb854c97a31cc6037ca316e33b08684a043398fd944cb20c95b3cdb60"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0063.csv",
+      "sha256": "6dcefb7346730a3db49005a321c2366e6f41323fc5af2dbdba5525cd027668cf"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0063.json",
+      "sha256": "14eef058cd7b030ae1c787cb2f5d997cd577783531ec41ab903c7a449b5cfcb6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0064.csv",
+      "sha256": "dcd49f4163a8200636074005c25a1ffd62b415dbe31ae1686cd8a27ddfdc25ab"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0064.json",
+      "sha256": "6bcc44dd78536823f8976dbffe4eba3fc7c9f9a89dc36314b84c350f7d1a4575"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0065.csv",
+      "sha256": "d23ce11ccdc3d4b97ed284c77cbee1b6554109b3ab38b508027774994eef5b9a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0065.json",
+      "sha256": "73c1f4744e423d91b24a2253e2cfea6845f3a019763bfb993856ec019a3828f4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0066.csv",
+      "sha256": "6730feb601945df1a5dfb9b41fd13b09991e6d166d939f17bac0cd670e2ca523"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0066.json",
+      "sha256": "4be5e063c8cf233cc64deb39c59a51d6d2f19f1b68ce2ca3b7a184060eb4badf"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0067.csv",
+      "sha256": "2277ccfe7daf86c27c35b4aa56082d77d1fcae196afc2f533399bf7c289710df"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0067.json",
+      "sha256": "0158be8a2d5ea11980574617a66bc20b649cd1e1c28f6a2acf1fa617f123963b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0068.csv",
+      "sha256": "69b70bda04606d1b430bd48c512e86143cb080c3046eaa72f904af2c03140358"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0068.json",
+      "sha256": "569b7c31099dbdc94434cde3d20dd35a2c68647aefee2da262594d2cd0d09d04"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0069.csv",
+      "sha256": "00e903000fa0653e54e4f6d99c84af2f5f1c5f34e37dea784a156fed5056265c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0069.json",
+      "sha256": "856fdf05068d30d7acc06af94c0991742988ad811df3f21a63c797aa9230e63a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0070.csv",
+      "sha256": "29f356633fc51e3de1050be8e5ba003a0c0eaf852757355bf0881ad0658b27fc"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0070.json",
+      "sha256": "a9d16e6c86901421d76d7b4e9e518ef6b062d809faacca8faede6c949987259e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0071.csv",
+      "sha256": "bc34b857d993262bef58bf93df1afeff473939966f51aea24905f82ad25b4114"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0071.json",
+      "sha256": "eef1e61647fdbf358f88055f1e690271ac0608167b65227fa39ebf76dddbb2d6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0072.csv",
+      "sha256": "8782f047c10addfa3b15d9bcd71890974d88183976bd674f517eef5a03549458"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0072.json",
+      "sha256": "54f5c5a54ea43d73465f5452402a0775be57b40a939e50be42dce0c2c6ca6963"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t1_coarse_0073.csv",
+      "sha256": "3521c15f4511a68cbb1d722db935bf91cbf8cd77ff5a8d68a712c83021b1d2a6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t1_coarse_0073.json",
+      "sha256": "69e3e8b1668aad9b4e2d75fa705a1b08fbdd6cd95230410ad4e67d330a04c08e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_stable_0074.csv",
+      "sha256": "4fa80cda574fd5a9e11edfb7a1ea90d61a22360cb2ca4eb36910f5be3292322a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_stable_0074.json",
+      "sha256": "2dfe7ac78266b2e5681c55c672265944518242c6fa218571dacf14d99c416ab3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_actual_clearing_0075.csv",
+      "sha256": "58db3cf0d2b7c3702a6415dae9e0fc4b176edb0e92261cd003781a70db9219a8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_actual_clearing_0075.json",
+      "sha256": "8f4cc489838f652204de68468bffdd7788e9bd93dedc683e908b254b55f5ed27"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_projected_clearing_0076.csv",
+      "sha256": "945b0eb28e961023fe68c75f95b768ac759c8efa21188da9dcb0bb544488b59f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_projected_clearing_0076.json",
+      "sha256": "418103598e4b0b1b3c120e1c5f164a23ea0ead008191ca689520bead005b2834"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0077.csv",
+      "sha256": "e4dec4e3cd07d64683cbecf39a391bb65015b165a3c0510c6d2cd7a60edef224"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0077.json",
+      "sha256": "a0ff17df1281800541c3ae16af0ced3628bb786f53a252df99ae71417f19d48a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0078.csv",
+      "sha256": "ce23277c5960edbb3d56726047582d126c5604acac34eeb459945156cce5b9fe"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0078.json",
+      "sha256": "bd4fe5e80a3c35fab3e06246b1f4d17b5b069f1625f6b38c0a46d24d72d51ddc"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0079.csv",
+      "sha256": "c4feaffb7a42549e0863070180296a57390a90a96c7cc8d7a09ea2c45d48c868"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0079.json",
+      "sha256": "551c2e6af6e7eb5ece117a807c07e935c19a5f643433cdaf675703138b639fd4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0080.csv",
+      "sha256": "43de29c291fc83553ea6a12fc6fb034661f8bd3513c1ba83f6945897fcfa9c07"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0080.json",
+      "sha256": "86b72af05d03dcc6981fd9f5d23f067be42e3634deb4636490b5a2fe0ed8bd13"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0081.csv",
+      "sha256": "4fdf0759f55feedfef0bd7a0477458d02cc64c39723139bb8d1a90dc441f0625"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0081.json",
+      "sha256": "dbe7e0d67d5e10f1ac512b25ae35bfef82d95966a7565b61ff7c3272358442e7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0082.csv",
+      "sha256": "de255159deefa91b56929741175a5a3d6bccfbfdd5fb86a43d79192556e76543"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0082.json",
+      "sha256": "89a69aef6554299dc25df4b0654ecd3994d0fd6998927d18a2530e025be7647f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0083.csv",
+      "sha256": "f6d271eb0ad3477419f1ce2dde2d6e72ded1ba37a34ac3e36f38d57b31f4bbba"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0083.json",
+      "sha256": "a40502a3156375685986520d162a314f5eedb5ba7e1b729a60c5ef1dfe6e1ae8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0084.csv",
+      "sha256": "5af966b9346bf323ccb2677ab56bf7588c67240674a78a4daea4bb39d2d0ae83"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0084.json",
+      "sha256": "b4815616bb60e01fda2ef8aaa24c441a8348345c4097267280c6538a2685d8d7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0085.csv",
+      "sha256": "cf0c154700e628a5582151c91a34d23d14ceaca9b278026ed9727d5f88a3725f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0085.json",
+      "sha256": "5b05b60e661ec12cefea1d58a0e6be3f9ffce4a7dd22596c2bd9b5d7f3c432e3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0086.csv",
+      "sha256": "8ca1ef74b8c98acc8c109fd407de27e07ecc70ddc2b4aacf9bc28fab759118d5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0086.json",
+      "sha256": "fda1151e9f2a1b2956a701fd6ba3c51f1610a0d24fb722b4d11d6d6b1709b9cd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0087.csv",
+      "sha256": "16b4a704be0ab153c7791c477c7c5cfd68be63bd9b1d0d778ca2ded677ebaa63"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0087.json",
+      "sha256": "dc749cd7f17defd13f6734a68394e550354a003a753699b054a57a93852327c0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0088.csv",
+      "sha256": "e7abb93336066cda6603a265ce9fbb36d7794f12b7ceb5529006aad7ed28781f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0088.json",
+      "sha256": "da6d3923016bf4d4394e154ba43604eb6c07585bad6acfc56065e61ca3454470"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0089.csv",
+      "sha256": "ffa218f3f2b3662b667ab5ea4beaf9d9ef240593d9005fdc80325cd1baa8fcc0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0089.json",
+      "sha256": "0c833008c1a85f16e496a3f874de7aaab8b9ac79dd2ef0360e008d0a560fc4a4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0090.csv",
+      "sha256": "cf9b6d01108ba63d68ca37772eba094c2ce17dfc1d2ca884d1833736a3bfbc5c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0090.json",
+      "sha256": "0945de665144f6cf7d724ecdfabaac79e1d4d4b7c7f90aeae4b2b4e69997804c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0091.csv",
+      "sha256": "fa08e7c596b98db469f5edc6e5030d19ea58c4676a912d722b19496820f8c38c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0091.json",
+      "sha256": "14f970dd273fe4116f3bf6c94225cb6d23fa705db74c444beaeef82e0572d3a5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0092.csv",
+      "sha256": "ee93821c7445d484e064efec88b14dfc1ccf7c89afdb5ee9d8afb1d360a7a088"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0092.json",
+      "sha256": "b5837fa357b0ae42f227807b4507456644a5af1539271cbc78ed795639a954e4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0093.csv",
+      "sha256": "1199b6070d2bf70e7d8bb99e339c5eded9eaa779d1a8d81019893bf37bc74e63"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0093.json",
+      "sha256": "b5e25813bdbc0879cccd31b65de5535574dfd887fd65f7843a75ef1dbf1be334"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0094.csv",
+      "sha256": "42ca9de157999453591bd50803df986a032ea2fa9fa43277778dd3710055ab98"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0094.json",
+      "sha256": "1225dbd83a932f4b282fac6a671a1abd0954856ed9c3754b02d23fd8569a32ca"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0095.csv",
+      "sha256": "574d0e2a9677dc2cc296771c7263c0d24a639238b5d0a5953aabf7592528937d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0095.json",
+      "sha256": "70ef254eb894670cfe361120d69e3ba201bf4779062ba4085d6679ce86d2a051"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0096.csv",
+      "sha256": "de63b33b3954363bcb29d7639c552d2c060b0a36b89e99a9c3e87bc572f185a9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0096.json",
+      "sha256": "be894e1222a7f4c3141f2e98302d33746a37e6200e1b73eb7f7b5cf542df07c7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0097.csv",
+      "sha256": "00937a328eac73e11aa899f7f982b130c52bf0e20b3d60a97563deb6be035f15"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0097.json",
+      "sha256": "f5f0f5dccf93563278e28132670d77f9d4b77d578139bd2b1e96ec3d5daaca2f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0098.csv",
+      "sha256": "13cb133b3030ee75df04a720c0ac5fccb8bbadc2469e960f37e1a585d51d40e4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0098.json",
+      "sha256": "5412ba3733af57668586ff85488b28af94bfa700b799b20ef7316911e67309c6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0099.csv",
+      "sha256": "37190de00d97c2fccc78f2ceed10608e402cbdded9b45d4ae75ea27461eb21c4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0099.json",
+      "sha256": "1dc1e887985927bd48f6ba70e8821de049bd15202f954f11962182c940dc9741"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0100.csv",
+      "sha256": "6dcefb7346730a3db49005a321c2366e6f41323fc5af2dbdba5525cd027668cf"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0100.json",
+      "sha256": "58f37da83dadab4c5a616b81127ba5e1575c46a18fbec702a19e9e6f265fd4af"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0101.csv",
+      "sha256": "dcd49f4163a8200636074005c25a1ffd62b415dbe31ae1686cd8a27ddfdc25ab"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0101.json",
+      "sha256": "157ac2fd6730aa4bce65c0ad02df1ee31f9930ec5b303dbbdb7076a93c6d2d7d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0102.csv",
+      "sha256": "d23ce11ccdc3d4b97ed284c77cbee1b6554109b3ab38b508027774994eef5b9a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0102.json",
+      "sha256": "c9e06c7d0a4be50df05b08f74dd8542e528fa0ac95b5ac2904bd3d6030fae5da"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0103.csv",
+      "sha256": "6730feb601945df1a5dfb9b41fd13b09991e6d166d939f17bac0cd670e2ca523"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0103.json",
+      "sha256": "acd5a21ab1bc7ad24b0a9c5b1b3215dbc2a900a762c22f311fa253da7c589120"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0104.csv",
+      "sha256": "2277ccfe7daf86c27c35b4aa56082d77d1fcae196afc2f533399bf7c289710df"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0104.json",
+      "sha256": "332138178ad9f6050ec44e72ef758c18955726b45fdcb1a5a3b11b915b207e62"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0105.csv",
+      "sha256": "69b70bda04606d1b430bd48c512e86143cb080c3046eaa72f904af2c03140358"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0105.json",
+      "sha256": "5127707e72e687d94fb852cdc10e58477ec1191d35665d3233fa6b4012196f8b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0106.csv",
+      "sha256": "00e903000fa0653e54e4f6d99c84af2f5f1c5f34e37dea784a156fed5056265c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0106.json",
+      "sha256": "2c358238ead751f6f5e266e2f5eb830d4c6cbee2fa6848ad070c46c3ae262911"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0107.csv",
+      "sha256": "29f356633fc51e3de1050be8e5ba003a0c0eaf852757355bf0881ad0658b27fc"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0107.json",
+      "sha256": "42342ad8ec887906d2a9c7c2b88827bf457529a1c0ff0adc86512817a4a690ff"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0108.csv",
+      "sha256": "bc34b857d993262bef58bf93df1afeff473939966f51aea24905f82ad25b4114"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0108.json",
+      "sha256": "01552157a16aa630326679e34d3d38e5d634a6503636f364ae89a1933c3bda53"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0109.csv",
+      "sha256": "8782f047c10addfa3b15d9bcd71890974d88183976bd674f517eef5a03549458"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0109.json",
+      "sha256": "e1615cb00f96fadbfaac6aff5b013b3e2d01e2fb2834996b06895f34267beca2"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/t2_coarse_0110.csv",
+      "sha256": "3521c15f4511a68cbb1d722db935bf91cbf8cd77ff5a8d68a712c83021b1d2a6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/t2_coarse_0110.json",
+      "sha256": "e31fc7a83ee50b3b13e4dc19b2a3d2ac282a9fe79a2ffc6c776cc1a4fb71b432"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00111.csv",
+      "sha256": "745dfa68c73f6943d6a135c629e5ae4187ae7ff631188377c6a682a123399299"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00111.json",
+      "sha256": "82652b5df104dc7d14abc4ca7040d031cde66a187a88e6c4763b00e53c9c2f4c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00112.csv",
+      "sha256": "d995accf2de92bbbed46bc88fffb85edd43fa0d72c289732387d2cd94fd65b3f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00112.json",
+      "sha256": "dfad14b3365ad54c6e8e3b070de392a61c90263dc65472d6ae43d17c90eea1d6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00113.csv",
+      "sha256": "63402c1dd4ff41b5c4d2431b5a5b003bfb1c2a581d9c241c71495ccc22f1300c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00113.json",
+      "sha256": "3c8bfcdc03b69585937463e9a41113fff910ae8502dbaa67fa28681050bf76a6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00114.csv",
+      "sha256": "f79974d5100e495b6b2f0e1e0dcb8738a426bced7507dcb835b58587c9a66f75"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00114.json",
+      "sha256": "cecc239803298fce92a8f9204b8dff0b0cd66840fcf23a56c77d1f7ea94b94e6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00115.csv",
+      "sha256": "b0a02d961a75088d1407e57d0b262b8882be85604aa844b1fbcfc77bfa41ca9e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00115.json",
+      "sha256": "f8f4a3abef12d8d58f2eb7d709c5c862aaad0fef7e2efc53ebe49726b30fffd3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00116.csv",
+      "sha256": "7239adf847f267862ebc733f55be59f2257c4e99a5cc4cee0266e3d42c9f8961"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00116.json",
+      "sha256": "5e98d7957407257e77fdcf81a185ff3fece635fd0e828b6d1f7b00db9d85effa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00117.csv",
+      "sha256": "a3361a28a965012a17212f2242ac7bf9ba96ddc22a3d3417edba00344e915c65"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00117.json",
+      "sha256": "0133a2170595279cfbe6c9ef997a407f04d60d034ae70792d71b2a712ff9f551"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00118.csv",
+      "sha256": "b7f5721c9b6582504251b16c9f4f8ce2040a433722fed6502e55b24879753b56"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00118.json",
+      "sha256": "f411d7726950654a385da12325688fc01cb9c7be9525a26e4d58c9da3d9c6ca0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00119.csv",
+      "sha256": "88770e8f6f6ae2def225d82b57ef07416e6d307079999559bb6f8754b1df58cb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00119.json",
+      "sha256": "0cb8d82275408de97f85fb5dc46948aefaa453b9431ede162d66f7c3d4061e75"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00120.csv",
+      "sha256": "656955d0ced3c5a18cdfa5501d105a6cd02f05521f05f9ac65cdbb136dc340e1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00120.json",
+      "sha256": "c7c1a016070d1a094403df3e62a25b6597ea8646f48aa4a8467738aad5579769"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00121.csv",
+      "sha256": "057a7c07ae789a2827b05613a14a1c40740ea558bd5412c057b36b6bd507a916"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00121.json",
+      "sha256": "83b3ea2ef61af491e04ae52788df1f682e80f3c18b3221cd2155ca4ebde7b323"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00122.csv",
+      "sha256": "bb4b77c4a98c1a97544105a6070f6ef778ba6625e0c185bf868a676b2311c845"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00122.json",
+      "sha256": "37530170cf3685008d756e88d103f8cd3c4e0f589791355cd32dff2a75217268"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00123.csv",
+      "sha256": "64b542c4b50fb4256d72eccd62fa8562096aba14ecf7df15ab988bd18891cee7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00123.json",
+      "sha256": "b7aa9abac39274789149c83f36122a47045f55b8b8762627865fa15b1a1f69f8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00124.csv",
+      "sha256": "c84b66932be334cd210f788b1846e94418508cd59f6e32ddab8b40b351274474"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00124.json",
+      "sha256": "17a4af7af150bbdcedeb4d430c3dcf3cc82e45994e1dbc81b3296581fe327757"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00125.csv",
+      "sha256": "d33e11045b3376dc1bad9c2c45e7681bb95bb371c4bf4c467d64e5193ba36d4a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00125.json",
+      "sha256": "608a47519c0d93a7302b0fedb6dfbae0d588a96405027061c76a3d447616ee29"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00126.csv",
+      "sha256": "bc23778ae80d7638bcbb84bd8e3dd0267abe1ec4d95906c4c9cb54753b10d72a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00126.json",
+      "sha256": "fec1e87f767911f079d887bccf3eb066a1b66e734be59459b0ccacff805a8186"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00127.csv",
+      "sha256": "043818045d6ab7b8a3da3dd6c2ee758ae2f6cd3a924aaf6b3ecd0d1401ae5554"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00127.json",
+      "sha256": "3a95ebb7a84b063668e76078b183fd30e0eb94cc36e9cbe4d0f1c9038515d05d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00128.csv",
+      "sha256": "ee712263354c906adb1aa7cb608d39d65aaf933e7dd2024827b8552e718777b8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00128.json",
+      "sha256": "3c4f222621f641fed813d2a95f665e2cad21bc5b37f2260725d0e87a6a7349c0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00129.csv",
+      "sha256": "f526d954e6970d1a9d0fc99342f6cc9091b03461b5501a39f0356601576d8cfd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00129.json",
+      "sha256": "547a6298ab8fc636ee3915d7cc4f1f542d2cc01bebe5b8cea587b615159671af"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00130.csv",
+      "sha256": "d1dc4741fe9719217146183ded79db0dad07579e6679ec55dc0e59227f5594bd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00130.json",
+      "sha256": "5bbfe39b418576202e9893c729269b8b16b4967100b5a88b23a094518f9b5bd4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00131.csv",
+      "sha256": "fc4205d1327c19c24f88f55d14016b180b6fe5193a8a544f62a873f68e4dbb7c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00131.json",
+      "sha256": "16e8c408ccddfeacd65cddd043b28b8d9b268f6026a5cb72a9f7088da2e98fb1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00132.csv",
+      "sha256": "15cde098effc0d83343f0240d55af178517a44dffb9545ce86d527f95f0e250d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00132.json",
+      "sha256": "a7de9142ce51fa5f5f7864e116db54759a19d3539529630c4f051640983903b1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00133.csv",
+      "sha256": "745dfa68c73f6943d6a135c629e5ae4187ae7ff631188377c6a682a123399299"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00133.json",
+      "sha256": "9b7ab5ce1b1f8712a684c443f3dbd26f7921f328a8a4d61eebf148c4aae53dc5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00134.csv",
+      "sha256": "d995accf2de92bbbed46bc88fffb85edd43fa0d72c289732387d2cd94fd65b3f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00134.json",
+      "sha256": "076f7a84e98b8d1bdadb30086ec44efc9e9b2e234b36028aefc27cb7028896c5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00135.csv",
+      "sha256": "63402c1dd4ff41b5c4d2431b5a5b003bfb1c2a581d9c241c71495ccc22f1300c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00135.json",
+      "sha256": "89cfd1be9c3677aa7bc4084a71fcde7abb49d507608278cec1f733aa29cbdcc3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00136.csv",
+      "sha256": "f79974d5100e495b6b2f0e1e0dcb8738a426bced7507dcb835b58587c9a66f75"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00136.json",
+      "sha256": "6c5324375c10db844c14a9501653ba1626566fefcbef893ff3631e55b869e2a8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00137.csv",
+      "sha256": "b0a02d961a75088d1407e57d0b262b8882be85604aa844b1fbcfc77bfa41ca9e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00137.json",
+      "sha256": "70415d3db7f0fb9ec20592f0cf2b5ffb5255f9720a775e3fde3c4cfeae9a64e4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00138.csv",
+      "sha256": "7239adf847f267862ebc733f55be59f2257c4e99a5cc4cee0266e3d42c9f8961"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00138.json",
+      "sha256": "f510ca9efba97fc9e6faacabe11c8f5f3d081a5f0ebb8c61a6c62953192b8286"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00139.csv",
+      "sha256": "a3361a28a965012a17212f2242ac7bf9ba96ddc22a3d3417edba00344e915c65"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00139.json",
+      "sha256": "8939f1bd998fbe4662ca23e7492fbae3f2cad13e61028f6442588fff5fedb4ee"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00140.csv",
+      "sha256": "b7f5721c9b6582504251b16c9f4f8ce2040a433722fed6502e55b24879753b56"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00140.json",
+      "sha256": "d8add6a86df2b07f25c99e6e72f546e1db5dffb4da2432f9221f4b24d1aebd7b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00141.csv",
+      "sha256": "88770e8f6f6ae2def225d82b57ef07416e6d307079999559bb6f8754b1df58cb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00141.json",
+      "sha256": "7efa7a2405ab9c611b279be2471c95a7ce926e4582ffc6f3e1d851fb6e2d6de2"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00142.csv",
+      "sha256": "656955d0ced3c5a18cdfa5501d105a6cd02f05521f05f9ac65cdbb136dc340e1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00142.json",
+      "sha256": "64c7703233660929d70835f6cf3022888994615570b48d4ae50d218820e9b03a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00143.csv",
+      "sha256": "057a7c07ae789a2827b05613a14a1c40740ea558bd5412c057b36b6bd507a916"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00143.json",
+      "sha256": "bea0fefdd0db25fc00de4b2128c70a53ab5ad5be2f2ea57e333cc3661f22aa78"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00144.csv",
+      "sha256": "bb4b77c4a98c1a97544105a6070f6ef778ba6625e0c185bf868a676b2311c845"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00144.json",
+      "sha256": "f85dbafe59c8be264e0054c73953fc61197924c1e59f53b414b88ca01ee892a0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00145.csv",
+      "sha256": "64b542c4b50fb4256d72eccd62fa8562096aba14ecf7df15ab988bd18891cee7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00145.json",
+      "sha256": "bc5fd91d278b36f20af5f764552679657640f378b23ec4c9e8b17304f1b3fe88"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00146.csv",
+      "sha256": "c84b66932be334cd210f788b1846e94418508cd59f6e32ddab8b40b351274474"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00146.json",
+      "sha256": "7725863613c827160b926f6def9ac189672a57a4c301c5e5f317d5c3a85b61f9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00147.csv",
+      "sha256": "d33e11045b3376dc1bad9c2c45e7681bb95bb371c4bf4c467d64e5193ba36d4a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00147.json",
+      "sha256": "d01270f37fc449836bec078c6537a55ae2f2b3ded24111e3b37d944aaef8761f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00148.csv",
+      "sha256": "bc23778ae80d7638bcbb84bd8e3dd0267abe1ec4d95906c4c9cb54753b10d72a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00148.json",
+      "sha256": "2c78ce97f930c6770895bca978056572e52e936653a4d15062728d19f6860ef5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00149.csv",
+      "sha256": "043818045d6ab7b8a3da3dd6c2ee758ae2f6cd3a924aaf6b3ecd0d1401ae5554"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00149.json",
+      "sha256": "bacb59676dc80b88ccc44dbf99e2753c6941e543b5c3fd1774d19caae3e6457d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00150.csv",
+      "sha256": "ee712263354c906adb1aa7cb608d39d65aaf933e7dd2024827b8552e718777b8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00150.json",
+      "sha256": "ad6eea9e3278104454375783125f50bc1a8a10db72e6b292a5c6965f2fe2bad6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00151.csv",
+      "sha256": "f526d954e6970d1a9d0fc99342f6cc9091b03461b5501a39f0356601576d8cfd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00151.json",
+      "sha256": "6b2ffa873ed3b6b0121c8757bf770c227f8a05d1e4990a9c3693c185489b4af9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00152.csv",
+      "sha256": "d1dc4741fe9719217146183ded79db0dad07579e6679ec55dc0e59227f5594bd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00152.json",
+      "sha256": "ec6a006d5d1811ae02fe52d18a1187cab782818ef77f2070685e862ef7f42d31"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00153.csv",
+      "sha256": "fc4205d1327c19c24f88f55d14016b180b6fe5193a8a544f62a873f68e4dbb7c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00153.json",
+      "sha256": "7de37b41ea02e8e413d2f0c6932a16a4e5dbf88525f0538bd5816f30b06385db"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00154.csv",
+      "sha256": "15cde098effc0d83343f0240d55af178517a44dffb9545ce86d527f95f0e250d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00154.json",
+      "sha256": "444b556a081661073af0b13c9fbae12b3e68246b1d83ed672a2df9c6d947e380"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00155.csv",
+      "sha256": "745dfa68c73f6943d6a135c629e5ae4187ae7ff631188377c6a682a123399299"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00155.json",
+      "sha256": "cb54697e13e1b39404210b9490a5e90f2166c032a465db16e0c6cf00681c8380"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00156.csv",
+      "sha256": "d995accf2de92bbbed46bc88fffb85edd43fa0d72c289732387d2cd94fd65b3f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00156.json",
+      "sha256": "c7bda91ac86ef10d4e21cf0abf7c67a9bad8c1b9a872bddcbf0a25771768241a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00157.csv",
+      "sha256": "63402c1dd4ff41b5c4d2431b5a5b003bfb1c2a581d9c241c71495ccc22f1300c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00157.json",
+      "sha256": "95a66516bebc4ea11142ed5406bcb1dcb4be94106c1ebf2011e8cb233380a800"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00158.csv",
+      "sha256": "f79974d5100e495b6b2f0e1e0dcb8738a426bced7507dcb835b58587c9a66f75"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00158.json",
+      "sha256": "ec41465ee9921bda4372a5324233b154857093209a173c346888d0b5b8b24d67"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00159.csv",
+      "sha256": "b0a02d961a75088d1407e57d0b262b8882be85604aa844b1fbcfc77bfa41ca9e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00159.json",
+      "sha256": "1525773ffe7de509a407ac324461cec3089b67debabc49467192b0f7b69590ca"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00160.csv",
+      "sha256": "7239adf847f267862ebc733f55be59f2257c4e99a5cc4cee0266e3d42c9f8961"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00160.json",
+      "sha256": "f52d7c3bf2665b7843b24a4b1d394272a977d9af3846a8ec0914215cf14860d8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00161.csv",
+      "sha256": "a3361a28a965012a17212f2242ac7bf9ba96ddc22a3d3417edba00344e915c65"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00161.json",
+      "sha256": "1818cf8033484b9a65411e05aa596c067b638b6a0521617fe616a0ed8cfae153"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00162.csv",
+      "sha256": "b7f5721c9b6582504251b16c9f4f8ce2040a433722fed6502e55b24879753b56"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00162.json",
+      "sha256": "852bd540fd175c8beae3a33619d4f4146366d62ee76e60c0038ea8c67b5ae0bf"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00163.csv",
+      "sha256": "88770e8f6f6ae2def225d82b57ef07416e6d307079999559bb6f8754b1df58cb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00163.json",
+      "sha256": "4d766e3264487d1ed7d087fd22a950943719ca6fad785a3f6582e542412e95c2"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00164.csv",
+      "sha256": "656955d0ced3c5a18cdfa5501d105a6cd02f05521f05f9ac65cdbb136dc340e1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00164.json",
+      "sha256": "fba1d9993d160548b3bb0624cddaebed43388bc42b5111584cff7fba9710ed5b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00165.csv",
+      "sha256": "057a7c07ae789a2827b05613a14a1c40740ea558bd5412c057b36b6bd507a916"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00165.json",
+      "sha256": "fba881643e4c9de33712d0c63473cfe63aa093e80b37506afa933373a489813e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00166.csv",
+      "sha256": "bb4b77c4a98c1a97544105a6070f6ef778ba6625e0c185bf868a676b2311c845"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00166.json",
+      "sha256": "57cd5e81dd9c441c429ac5e522361dd4e054458aeebf47f354d2c03cacab0b68"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00167.csv",
+      "sha256": "64b542c4b50fb4256d72eccd62fa8562096aba14ecf7df15ab988bd18891cee7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00167.json",
+      "sha256": "3ead95418ff1f51d51efb6b7d7d210b1c17a694c2bafd2bd31c9508c90f91990"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00168.csv",
+      "sha256": "c84b66932be334cd210f788b1846e94418508cd59f6e32ddab8b40b351274474"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00168.json",
+      "sha256": "15f574d26e8a2407d41c860fd92f7c6f001b306d25a04db89d2ba8d6b4dc83f5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00169.csv",
+      "sha256": "d33e11045b3376dc1bad9c2c45e7681bb95bb371c4bf4c467d64e5193ba36d4a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00169.json",
+      "sha256": "c1139814a29e08cdf09d98e9f4a776691243d8d48a211f73e67d2f9283d5441e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00170.csv",
+      "sha256": "bc23778ae80d7638bcbb84bd8e3dd0267abe1ec4d95906c4c9cb54753b10d72a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00170.json",
+      "sha256": "47ca96a50563f77b89347c2e416aad9cb7fab11e728509707ba007fcbbc38150"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00171.csv",
+      "sha256": "043818045d6ab7b8a3da3dd6c2ee758ae2f6cd3a924aaf6b3ecd0d1401ae5554"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00171.json",
+      "sha256": "c3ae31a4aa38e4fce475f55ff3caf02ed26fa5b033666d83aa3f5df24f9df67a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00172.csv",
+      "sha256": "ee712263354c906adb1aa7cb608d39d65aaf933e7dd2024827b8552e718777b8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00172.json",
+      "sha256": "3b331fe849bd46bacbcd53ee2825c607ad625ec620f3d914ad726477469f294c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00173.csv",
+      "sha256": "f526d954e6970d1a9d0fc99342f6cc9091b03461b5501a39f0356601576d8cfd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00173.json",
+      "sha256": "8d9db99d347cf53038d38f5991fdf36f5cd41291195c4425d7e17a88982c5842"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00174.csv",
+      "sha256": "d1dc4741fe9719217146183ded79db0dad07579e6679ec55dc0e59227f5594bd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00174.json",
+      "sha256": "9339fa3f31bce238def180f41e834d7b506b2f5cd267ab1dc5b11017f5e11ddb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00175.csv",
+      "sha256": "fc4205d1327c19c24f88f55d14016b180b6fe5193a8a544f62a873f68e4dbb7c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00175.json",
+      "sha256": "6c4cf94ff7985491b150e559f7977acb4ee059b94f5370bc4f619d437c65410a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/focus_00176.csv",
+      "sha256": "15cde098effc0d83343f0240d55af178517a44dffb9545ce86d527f95f0e250d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/focus_00176.json",
+      "sha256": "e3fc5ea71d395042e8545110f40987300eb292e5ad7ba3cbfa897f376160eec5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00177.csv",
+      "sha256": "3d976cea0d12a5d71af6b8ee0086174af91ab2b47c13580b49901e0c1117239f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00177.json",
+      "sha256": "e7b632d152fd23a488ce9b89210d4380e61090d25172cad9b73e391043bdc6f8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00178.csv",
+      "sha256": "3d976cea0d12a5d71af6b8ee0086174af91ab2b47c13580b49901e0c1117239f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00178.json",
+      "sha256": "5b4f76f0b9883df3a97078beabe5817b1fe78afb4c73fbe31d2fb827638ee016"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00179.csv",
+      "sha256": "3d976cea0d12a5d71af6b8ee0086174af91ab2b47c13580b49901e0c1117239f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00179.json",
+      "sha256": "9480193a6b6dc8a93ce41d80729caef9969f137beb42df094a9d3df6da6619a8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00180.csv",
+      "sha256": "cf6c942d17f6b7cc1f51559b9229ffb1e007709761eb0b3537b6b1e4b25845ca"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00180.json",
+      "sha256": "57da24fe6d0293c5316bb7fa9f80708ee503a6fa707c89ee4a210264d9d07286"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00181.csv",
+      "sha256": "cf6c942d17f6b7cc1f51559b9229ffb1e007709761eb0b3537b6b1e4b25845ca"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00181.json",
+      "sha256": "65f43ec4cad26ce642fafda1a92755a3a2c540b4201d6029d39680a2c44d0ba9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00182.csv",
+      "sha256": "cf6c942d17f6b7cc1f51559b9229ffb1e007709761eb0b3537b6b1e4b25845ca"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00182.json",
+      "sha256": "8ac27e1ff78e60a90be8398255f60fe71248013a0752dc6294099dabe4f6d820"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00183.csv",
+      "sha256": "09feacd0a1a1a9966b3c0eac3d5e6eb820b279aa50138917b4f2b1b596854848"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00183.json",
+      "sha256": "820e9f5e7dc2fcb0ecc606865570b955841e8a48751d4218179f820f32cc92f8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00184.csv",
+      "sha256": "09feacd0a1a1a9966b3c0eac3d5e6eb820b279aa50138917b4f2b1b596854848"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00184.json",
+      "sha256": "31372c7371487779221ff005d49971ece1d1579debda7fb9fa8be53b25f2ad54"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00185.csv",
+      "sha256": "09feacd0a1a1a9966b3c0eac3d5e6eb820b279aa50138917b4f2b1b596854848"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00185.json",
+      "sha256": "ba7e2efd50ec2177e00168bdbe44ac052c74870c33fa98f90ca3c60461dd100e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00186.csv",
+      "sha256": "a0f2a95e5c1dc1243e5163c5cd9f12bd6235d0f8044ac47e12273506f37837d2"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00186.json",
+      "sha256": "29990f7112ca6112a4e76d4e788211298d5becb62f3efbeb1592eb5bd039dd2d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00187.csv",
+      "sha256": "a0f2a95e5c1dc1243e5163c5cd9f12bd6235d0f8044ac47e12273506f37837d2"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00187.json",
+      "sha256": "924d53bd85f353caff7fc1e890a69253b5e6d8b043b680cf7c9bc65668b6a95b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00188.csv",
+      "sha256": "a0f2a95e5c1dc1243e5163c5cd9f12bd6235d0f8044ac47e12273506f37837d2"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00188.json",
+      "sha256": "c82ecf9c5aa70d6b370c8f70cba1cf7eb58cce338b79af3f64c78a37586e7e73"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00189.csv",
+      "sha256": "b4a472b252e460bc984ecf24966014726943023684884cb4fbd34fcc43bf1c73"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00189.json",
+      "sha256": "a4190c97834741d65f45aea0639e4db6434217fbd22aa6459bd170d59084b9fd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00190.csv",
+      "sha256": "b4a472b252e460bc984ecf24966014726943023684884cb4fbd34fcc43bf1c73"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00190.json",
+      "sha256": "a06e16b4f1b4393df223f9ab458fe533e9b4845c2001cbf7fc83ce77c7d51907"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00191.csv",
+      "sha256": "b4a472b252e460bc984ecf24966014726943023684884cb4fbd34fcc43bf1c73"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00191.json",
+      "sha256": "89928da6851909a855e3c665b37a6bdb368d987ccb941fc62f6f4ab0d2f3819c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00192.csv",
+      "sha256": "e4618d6b75adf05f29c1b9e3285d34b6673b41944b146043f7f7a6b8a0b9e537"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00192.json",
+      "sha256": "770e0a32b66b76951ff36eb7dcc8913e782eee6f23569ea3df46be2008dba9a6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00193.csv",
+      "sha256": "e4618d6b75adf05f29c1b9e3285d34b6673b41944b146043f7f7a6b8a0b9e537"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00193.json",
+      "sha256": "dd32a08b1a208f497cb7970c6273eee889ba659f50a7f8b4f574a68417b51bc5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00194.csv",
+      "sha256": "e4618d6b75adf05f29c1b9e3285d34b6673b41944b146043f7f7a6b8a0b9e537"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00194.json",
+      "sha256": "d471bf8009aca4af9631c6d43c43b7f841831b6d848a5eae06e2d4bede557326"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00195.csv",
+      "sha256": "8d4563d4f381fc56f89919bf7940fa37785af8a57b0e29915806bf62dc57bff1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00195.json",
+      "sha256": "c0928f5d3816e45c08995407ba19765dfc4dc9d5a16b3b83add1231699367198"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00196.csv",
+      "sha256": "8d4563d4f381fc56f89919bf7940fa37785af8a57b0e29915806bf62dc57bff1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00196.json",
+      "sha256": "6745bb1dec762d2a24ff99526410d2a731aacd297e49c88ae047e14d98c0171e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00197.csv",
+      "sha256": "8d4563d4f381fc56f89919bf7940fa37785af8a57b0e29915806bf62dc57bff1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00197.json",
+      "sha256": "1c0ae7f28ad6a2536e0bfe90f03815e68435bbd017e6b22b98a6eb859747ddd6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00198.csv",
+      "sha256": "ea3b79a652b037dc828036d5bf5905102bf7cb6a1d63f1bdec3fd1a4cbe8679e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00198.json",
+      "sha256": "2eda75b520d363034ca334eab7c7df68c18ba0c3be948667d600fef4a1c62424"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00199.csv",
+      "sha256": "ea3b79a652b037dc828036d5bf5905102bf7cb6a1d63f1bdec3fd1a4cbe8679e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00199.json",
+      "sha256": "f61e05b0ea5d8fa57383dad17d539d68d36ae978783e00be08f747b15a9351dc"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00200.csv",
+      "sha256": "ea3b79a652b037dc828036d5bf5905102bf7cb6a1d63f1bdec3fd1a4cbe8679e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00200.json",
+      "sha256": "753befa3504450fdf652f9c1ffbe34d9937b09c121cf2fa03ab28f4243077bad"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00201.csv",
+      "sha256": "b0ef8bb56b2e730863713ed97c2215d2e4326e22e7032954841b300e46dfe7b6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00201.json",
+      "sha256": "279124966a2c6c9253f37c6b206675a79da9feaef4d622a6dbe74a2580d88c64"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00202.csv",
+      "sha256": "b0ef8bb56b2e730863713ed97c2215d2e4326e22e7032954841b300e46dfe7b6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00202.json",
+      "sha256": "c1fb68cfdaa37c1c7df58ae7c487d94652fa3b34be55beed6845ee3f9742ee36"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00203.csv",
+      "sha256": "b0ef8bb56b2e730863713ed97c2215d2e4326e22e7032954841b300e46dfe7b6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00203.json",
+      "sha256": "f9ae57955b3da422ca06eb644551576aef699fdc2654f59b67598eeac4942a75"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00204.csv",
+      "sha256": "73aef23c6d608b3a60243b0d216837f321501ac0329941bac8c50d0a3fc3858c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00204.json",
+      "sha256": "5e65cd89119aa6f5c5342e1f366c1c93c4227f2bce2c3246df71926e15a4a34d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00205.csv",
+      "sha256": "73aef23c6d608b3a60243b0d216837f321501ac0329941bac8c50d0a3fc3858c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00205.json",
+      "sha256": "2331e55ddee1d83e835e45aa3ec68716a94a4a297662fd7271d454efa92154e7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00206.csv",
+      "sha256": "73aef23c6d608b3a60243b0d216837f321501ac0329941bac8c50d0a3fc3858c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00206.json",
+      "sha256": "69c0e6c4eca6bc3b1362d438354c389bd1dc3745f09cd542a0f7b7695201a4f5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00207.csv",
+      "sha256": "388424b035552e9017fb47907577b97184607a5c9e12ea33aa20515aed3bed59"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00207.json",
+      "sha256": "c9ae4820b4ae39a73f2496d570e3868ad307fd18d1d5cca036cd3e2cdcee07c1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00208.csv",
+      "sha256": "388424b035552e9017fb47907577b97184607a5c9e12ea33aa20515aed3bed59"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00208.json",
+      "sha256": "bd1b4c2afbab5888f29dd0d7f5efbbe080bd93fccd24d5a15323518e1b69e905"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00209.csv",
+      "sha256": "388424b035552e9017fb47907577b97184607a5c9e12ea33aa20515aed3bed59"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00209.json",
+      "sha256": "480ac59ef5f000d46a7395018b992384ac5125b00615dff39b740e405dc0343b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00210.csv",
+      "sha256": "6ce484ae4cc3aa189152e0e7584a7ad03650109517b79353a25491cf665909c6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00210.json",
+      "sha256": "7721dde35a19fd54f4a53c98a909577ede41b5011e6f4cb23eed4d67f8650a9d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00211.csv",
+      "sha256": "6ce484ae4cc3aa189152e0e7584a7ad03650109517b79353a25491cf665909c6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00211.json",
+      "sha256": "065f6bb5b9e0e8be4642872297e732aa998aa074779334b654a71c31fb338672"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00212.csv",
+      "sha256": "6ce484ae4cc3aa189152e0e7584a7ad03650109517b79353a25491cf665909c6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00212.json",
+      "sha256": "7fb6f1bead1ec245c4fb0cdc3cbabf4996958816ef617065b821b587bb6e420c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00213.csv",
+      "sha256": "b59bb117b25907682edf891fa04e3d792acdc216563a69fcf5face92455568d0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00213.json",
+      "sha256": "2008e30719ce6a04a0c6c36175c9fcb6c95d9dfe9a3bf8d0d0900adeb11b6c24"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00214.csv",
+      "sha256": "b59bb117b25907682edf891fa04e3d792acdc216563a69fcf5face92455568d0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00214.json",
+      "sha256": "418c6491635af0b35464ee77aad79b7c42f4ccffb7f4574254d94f5608e36dfa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00215.csv",
+      "sha256": "b59bb117b25907682edf891fa04e3d792acdc216563a69fcf5face92455568d0"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00215.json",
+      "sha256": "6e0e2722d9b87944d05b22226392507ca53afb2dfecbc94dfbcdd52c89162b68"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00216.csv",
+      "sha256": "89af292af8e5157cb834a75a6f3bf744b4f7ba6b99eae4ae4fb0ccdff4830418"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00216.json",
+      "sha256": "0dbdab397cb0232ae49de829c7fbf4d73b3163292de64cf1319564a0ac18c610"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00217.csv",
+      "sha256": "89af292af8e5157cb834a75a6f3bf744b4f7ba6b99eae4ae4fb0ccdff4830418"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00217.json",
+      "sha256": "2392bdcd96da5a5bdf76264c744beeedd47928d06b99c4aab1d2960ddd0afed9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00218.csv",
+      "sha256": "89af292af8e5157cb834a75a6f3bf744b4f7ba6b99eae4ae4fb0ccdff4830418"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00218.json",
+      "sha256": "20315fd14f596b8d9be357b4297ff50b520a1bb182104330c58adced73446c28"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00219.csv",
+      "sha256": "42a4b6d37d40e37b1cd9e96d42fda6fc571a82d4d72d8695d2235d11114f1cae"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00219.json",
+      "sha256": "57dc42e455b285a6867d6fbbdb25ae6036f3feebd74a5586e9f0561cf2a5556f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00220.csv",
+      "sha256": "42a4b6d37d40e37b1cd9e96d42fda6fc571a82d4d72d8695d2235d11114f1cae"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00220.json",
+      "sha256": "111cf4ef3e00c449da2dc80fb2bb9e1ba66961a80fb5d30c1869c08aae8a200b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00221.csv",
+      "sha256": "42a4b6d37d40e37b1cd9e96d42fda6fc571a82d4d72d8695d2235d11114f1cae"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00221.json",
+      "sha256": "cdadefe5a37d976f5e858b1670cee289f6418e47035d9790bb07a64342a00eb6"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00222.csv",
+      "sha256": "b8837810f56b0c22afff97a0ee9a74f2899cb06b98a8db6ff856f3bd285d5a71"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00222.json",
+      "sha256": "0c4e4825a249b7b8bbccb2d2c73702c8bbe10a6c2fde3af371ef1b9decc7ceeb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00223.csv",
+      "sha256": "b8837810f56b0c22afff97a0ee9a74f2899cb06b98a8db6ff856f3bd285d5a71"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00223.json",
+      "sha256": "0cc8ed57d3497bdebd421355ecf9a5ddde6fe11b6b8b86ba9687613b15e4da4c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00224.csv",
+      "sha256": "b8837810f56b0c22afff97a0ee9a74f2899cb06b98a8db6ff856f3bd285d5a71"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00224.json",
+      "sha256": "6957edef96dbb88a7966ba1a81cf0415059084269201c5d8344fbb0bc780f010"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00225.csv",
+      "sha256": "d5cf1e46e5e45144ec0eab94f39d78539fae567d2a5c6f8238fe0cfcbee3ae34"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00225.json",
+      "sha256": "0d485e70c31cf88f44077d5e424f5dd2c6ff03e401cf576a96a7013c99a05c86"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00226.csv",
+      "sha256": "d5cf1e46e5e45144ec0eab94f39d78539fae567d2a5c6f8238fe0cfcbee3ae34"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00226.json",
+      "sha256": "4d7d2983203d1b38ae2455902b65534115bfd7030619372edaf44a4dadd52ff4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00227.csv",
+      "sha256": "d5cf1e46e5e45144ec0eab94f39d78539fae567d2a5c6f8238fe0cfcbee3ae34"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00227.json",
+      "sha256": "7bdd09b8a075284d9fbb73949aa64f02015beed5c3d67c4a91020969bd98a75b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00228.csv",
+      "sha256": "1250686eed90f9603cb8f4ae17583b037d00d77ced73309cbcaf6f6e6c310e78"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00228.json",
+      "sha256": "e0b912229f3894d4d52909a8ab5c42c6894e451f827411925dd54aadf9dc8f90"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00229.csv",
+      "sha256": "1250686eed90f9603cb8f4ae17583b037d00d77ced73309cbcaf6f6e6c310e78"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00229.json",
+      "sha256": "e705c15990fcee2d437c71bf8521f054ed00563ba14400a61ed29375c03b1947"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00230.csv",
+      "sha256": "1250686eed90f9603cb8f4ae17583b037d00d77ced73309cbcaf6f6e6c310e78"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00230.json",
+      "sha256": "267dca8a669dd81e5857adf4f6c3bab6336e073c796287fa7392f9039a3bd780"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00231.csv",
+      "sha256": "ba94fb53f8adb0387ac44d3f52c99ddfd8cb22a96891d3220c26891faa690ab8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00231.json",
+      "sha256": "5b12f1a698053c46f67461a67bf8d626028853a27de6a78cf49349a8ea344f63"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00232.csv",
+      "sha256": "ba94fb53f8adb0387ac44d3f52c99ddfd8cb22a96891d3220c26891faa690ab8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00232.json",
+      "sha256": "01282b7c20671d3c49d0ffd45beb24212807e7430be4e018b7b32a9ac2d78828"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00233.csv",
+      "sha256": "ba94fb53f8adb0387ac44d3f52c99ddfd8cb22a96891d3220c26891faa690ab8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00233.json",
+      "sha256": "903f774ca97416617913e89ebcd3cf6b655826f27276aef0fb2188da2f683b70"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00234.csv",
+      "sha256": "bc3a8f22599db85d0bcc134ad341654fccd1b59ce257c6937bd115c981036dbd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00234.json",
+      "sha256": "bcfb55ead447cb3128bbae49b1f626ccd1d7a64ac0727ea3653e9db9c05de188"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00235.csv",
+      "sha256": "bc3a8f22599db85d0bcc134ad341654fccd1b59ce257c6937bd115c981036dbd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00235.json",
+      "sha256": "2c0e6bb57da632985ddf580817ef423c5b368fcd34fd7ed0c692bedccb7d4da5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00236.csv",
+      "sha256": "bc3a8f22599db85d0bcc134ad341654fccd1b59ce257c6937bd115c981036dbd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00236.json",
+      "sha256": "3e5c01a66a6914a99d4a214e7d17726f7be368c21c5045684ce151e8b337b96a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00237.csv",
+      "sha256": "b28aa667a8da2446f064f7a697741a4c0993638aff8ebdd1b7b74b0eba8f8709"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00237.json",
+      "sha256": "206ab046d7566d6a730f3f76bcdec15a52e7d79a15227bce2f0ac8aba1ea2245"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00238.csv",
+      "sha256": "b28aa667a8da2446f064f7a697741a4c0993638aff8ebdd1b7b74b0eba8f8709"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00238.json",
+      "sha256": "26c9320aaafb690d5e439e7935373e80f6cd9401198e63008472a6b160ad23d1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00239.csv",
+      "sha256": "b28aa667a8da2446f064f7a697741a4c0993638aff8ebdd1b7b74b0eba8f8709"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00239.json",
+      "sha256": "de6c83821c651d066675e465268de4d33a76686a77727ba88d3118c80b589404"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00240.csv",
+      "sha256": "cc855eaf1710cf9b923d9f0fc80bf87c48bfd4e6009bdf79f6e1404ff355d6fb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00240.json",
+      "sha256": "30b05c8631abcda52849bd492a27b203b8d1eadc460fe8f852e09110c26f0b86"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00241.csv",
+      "sha256": "cc855eaf1710cf9b923d9f0fc80bf87c48bfd4e6009bdf79f6e1404ff355d6fb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00241.json",
+      "sha256": "0bb8dad173f100009d52579fb8df5c0ff24c05d8410c280547dae37f32092998"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00242.csv",
+      "sha256": "cc855eaf1710cf9b923d9f0fc80bf87c48bfd4e6009bdf79f6e1404ff355d6fb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00242.json",
+      "sha256": "4c1071f2198d3465d90c6202bceeeb47419f34aa7a37ea4fa0573304ce25aaeb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00243.csv",
+      "sha256": "22ed4fef90cbcc82c121560f28ec536c460802f8af8517abbd0691959fdaf3a4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00243.json",
+      "sha256": "c3c09cf032ee676da8767da42b7b5d470ebafa943e1d03cee845455a44c256b8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00244.csv",
+      "sha256": "22ed4fef90cbcc82c121560f28ec536c460802f8af8517abbd0691959fdaf3a4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00244.json",
+      "sha256": "1a4bf7766c7f0f3712764751c819bf08296dbff27f2440cf986d7ae529f6b675"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00245.csv",
+      "sha256": "22ed4fef90cbcc82c121560f28ec536c460802f8af8517abbd0691959fdaf3a4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00245.json",
+      "sha256": "ab7834517eef4acdc5c60374f4522258f4cf6e4e131a2cdaefeddc109b63f02b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00246.csv",
+      "sha256": "1026d05b9644e7c0f7475bc7fb19f46d06bbaa895f91fb793422687dc9a61817"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00246.json",
+      "sha256": "0d1df2cada519c97357d1e12a1f24882bec06935ea89ff8e46b55c7313347b11"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00247.csv",
+      "sha256": "1026d05b9644e7c0f7475bc7fb19f46d06bbaa895f91fb793422687dc9a61817"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00247.json",
+      "sha256": "2efd1b3d51705eb981527da07f43fc7fd7dded5749cb9cbbfe24597963f02176"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00248.csv",
+      "sha256": "1026d05b9644e7c0f7475bc7fb19f46d06bbaa895f91fb793422687dc9a61817"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00248.json",
+      "sha256": "2e1c89d19aa010dd1e7157a869568365b3ee14db9bc52f33a84516a1d376021f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00249.csv",
+      "sha256": "1971dcf041d8af1a662218fd76fb05880bad1da6aad88afc6d37cbbe7b9c52fa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00249.json",
+      "sha256": "8a463c0dc36bf0c51221262b5b0732a487144e11416d0d55550379abcac9c286"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00250.csv",
+      "sha256": "1971dcf041d8af1a662218fd76fb05880bad1da6aad88afc6d37cbbe7b9c52fa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00250.json",
+      "sha256": "75c8b1991b61c1196d29a3d80eae04ee8aa385f9455cd02292070ea30d2bc105"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00251.csv",
+      "sha256": "1971dcf041d8af1a662218fd76fb05880bad1da6aad88afc6d37cbbe7b9c52fa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00251.json",
+      "sha256": "b62c7f8a782897a69fb2f260d17139f044dff703366026b068fe8f1cdc997d5f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00252.csv",
+      "sha256": "1939f053ab5a0dfe5dda9349c6cda8e530422c8c05a0bba776617476c3323455"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00252.json",
+      "sha256": "bea3a96ddd85e363758126d3d6864d1534801d8458ad651096b600fe4d59c74c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00253.csv",
+      "sha256": "1939f053ab5a0dfe5dda9349c6cda8e530422c8c05a0bba776617476c3323455"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00253.json",
+      "sha256": "5e8865130df1b482474088fb414fb58c116afe4497a2974a7e603016f2b85f71"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00254.csv",
+      "sha256": "1939f053ab5a0dfe5dda9349c6cda8e530422c8c05a0bba776617476c3323455"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00254.json",
+      "sha256": "811bc611a6763f125fc3f05e1a516375d7da8ea05c9ae8a52b7387d78ad23afb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00255.csv",
+      "sha256": "209d4715c99e639dce8f14ce014eb35d2e74694c20c08e4f83c22a1390e7afa4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00255.json",
+      "sha256": "e26561aaecfa636fb7c635c9696c5e99de164b2ee42172a1d30ee9193c9157bc"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00256.csv",
+      "sha256": "209d4715c99e639dce8f14ce014eb35d2e74694c20c08e4f83c22a1390e7afa4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00256.json",
+      "sha256": "e0b790482393dbbf038b9ef3eeab7c2f98973e0948c6726fa971718049179db4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00257.csv",
+      "sha256": "209d4715c99e639dce8f14ce014eb35d2e74694c20c08e4f83c22a1390e7afa4"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00257.json",
+      "sha256": "a636f883a207071d65089ca7e0a2c43451f38b4554ec7df80055ae50c899dbf1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00258.csv",
+      "sha256": "45b691e15cdb73883640f9da7d8de8f06be76a6682da335ba5d1dc945e997869"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00258.json",
+      "sha256": "ca39ec4942414718dbd7d22510704442b7c912d4beb3a58d8f5d806db9a1fa9f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00259.csv",
+      "sha256": "45b691e15cdb73883640f9da7d8de8f06be76a6682da335ba5d1dc945e997869"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00259.json",
+      "sha256": "a9d654a21638c1049791ad3ea2e399e36cc819de902ff2f3434bf0227f39810d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00260.csv",
+      "sha256": "45b691e15cdb73883640f9da7d8de8f06be76a6682da335ba5d1dc945e997869"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00260.json",
+      "sha256": "f7859571a9950ea76110a85a257c51b42497865f105ec1e2c5d9fb0be0107304"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00261.csv",
+      "sha256": "06b7e8965a1ffdf97740d78b90aa5002884eeb2e5cc64c8242bf33668fd825e9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00261.json",
+      "sha256": "cf9f4cbbc638004bd9b34029806f84c1e285f13dedc0d041ce33a1dc4f866c7b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00262.csv",
+      "sha256": "06b7e8965a1ffdf97740d78b90aa5002884eeb2e5cc64c8242bf33668fd825e9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00262.json",
+      "sha256": "32d0bcc6e88a1057dc4364b3cea49fed2b18b2d9fe52be17e0194280760d069c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00263.csv",
+      "sha256": "06b7e8965a1ffdf97740d78b90aa5002884eeb2e5cc64c8242bf33668fd825e9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00263.json",
+      "sha256": "38fa97468bb9b182a669b30bf917d08e8961ba40d41cdb740c9badb065d6bfc9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00264.csv",
+      "sha256": "a85e5ee637ff31c051fdb8e44eaf165d025410c2e12b7dd9afd702208b61bf5c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00264.json",
+      "sha256": "2db3966cd8c2ff3c5e91b3f7727b27303aba60a91483b5124bc2129aca63bfd7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00265.csv",
+      "sha256": "a85e5ee637ff31c051fdb8e44eaf165d025410c2e12b7dd9afd702208b61bf5c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00265.json",
+      "sha256": "39a6b2ee7c2c9070e961a8f9eaf6b4e36932f8796f5acf2edaea43f478d39674"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00266.csv",
+      "sha256": "a85e5ee637ff31c051fdb8e44eaf165d025410c2e12b7dd9afd702208b61bf5c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00266.json",
+      "sha256": "95da77b99874900e9cb787840f11d0533c39bb2834f1ae699946610d24784dfe"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00267.csv",
+      "sha256": "35ecb2e0edb47a4afd0ba8255a160179aff6acbdf9bb881f01b3f1c643236a50"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00267.json",
+      "sha256": "ad8560a4949f694b52a5b15b9b60883bf3e6fc2c74c8e5bcd69957c0667b491c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00268.csv",
+      "sha256": "bc298469667f378223fc9c57e57127922057136c1d349c49acd7799832474b43"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00268.json",
+      "sha256": "56457916a78cf49ef2bf63a0fc84691af6189d18f071c952000bd76c4aee0c58"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00269.csv",
+      "sha256": "4311af62817a940ffa11ebaa972beb6fbc39dcc10cfc453c24ad300d6ff75c7c"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00269.json",
+      "sha256": "03254730e4b028fbb378effa77d400979ea1b3fbebe75d0a9e04905fb90c5b24"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00270.csv",
+      "sha256": "5d3fee48d397b32fdbfc473f6cf3698eee32fadda6e707244639085e7ae44e62"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00270.json",
+      "sha256": "6df9b75882b03d17b1c23dbae17091501420dd228f1d00d90ce7588ccab22977"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00271.csv",
+      "sha256": "f9ea89ad7f5f24d993a13e2974a39573cd57ec9cce73af0bf62ebf1e153a98cb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00271.json",
+      "sha256": "2e5488209f2aff8d50d2cd8235fc59cc1ed8c5453371dbef38b4cf8708306db1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00272.csv",
+      "sha256": "0215e9a9b8e09db1921a14eeade9d50564f0a786e4350dc14093842d1cfb7d12"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00272.json",
+      "sha256": "0f6747fe196ea1f5f8da0380781d00a8e0f2631cd73d3eef8339a7f9ae100f19"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00273.csv",
+      "sha256": "88a3c52316b23a923aad6b06220f11814200291037ef2fd4b121b3fd5a989aa8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00273.json",
+      "sha256": "9778b57412c5129d2f6d2bdf2b91fae15eddde58759cbfcbaba3427cc925085a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00274.csv",
+      "sha256": "3e48c649ad1885b7a652a0b1fe10cdf5a1d80b5fda48d4979df7fd0805971baa"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00274.json",
+      "sha256": "a5c2e88bc21ee755e8e0136e229f2efecee117d8289dcaede3b330d702a90f95"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00275.csv",
+      "sha256": "2464aec89a539ec5a72c82e9d7cd6b3e66f20c7174499ad87e73b79fb7bfe143"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00275.json",
+      "sha256": "779b9c3b3f215984ccc3ff3c8f941fef43236ef577b5c296d07a2b7c0eef3545"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00276.csv",
+      "sha256": "ca7212b2a5114ed5352099474422f8e0b95e82b60ee73ebefc92e0fa08c81c8d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00276.json",
+      "sha256": "073401c62b3ab7b2bed9156721f0fb753161a59d39a4c4f5ba0aa2eeeb199cc5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00277.csv",
+      "sha256": "80914a0285d1be3ac7fd5f5ce804f7e2c4c4a5b54cd8ca27e4d041febee65687"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00277.json",
+      "sha256": "36343aec7a1601490c8082949afbf8114e9ed1940ed60d3b3a7e5536a9942d24"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/hidden_test_00278.csv",
+      "sha256": "daae538275aecf5446f3d90a85b989199ab886eb0977262bffecd5c12df4e848"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/hidden_test_00278.json",
+      "sha256": "0287aa04b3a590430a1f148b46257192a240885e162b0bdde404f7949b1d782b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/strict_00279.csv",
+      "sha256": "1026d05b9644e7c0f7475bc7fb19f46d06bbaa895f91fb793422687dc9a61817"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/strict_00279.json",
+      "sha256": "a7e63a712eade2525f18d48d9f5b92a7b7a8ea0acb68c71a5482dc18b4671a17"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/strict_00280.csv",
+      "sha256": "bc23778ae80d7638bcbb84bd8e3dd0267abe1ec4d95906c4c9cb54753b10d72a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/strict_00280.json",
+      "sha256": "bcddb235527fff4ed8f9178d3548fd9b87c8a969a2f2613524011b2539b9e8f5"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00240.csv",
+      "sha256": "cc855eaf1710cf9b923d9f0fc80bf87c48bfd4e6009bdf79f6e1404ff355d6fb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00240.json",
+      "sha256": "30b05c8631abcda52849bd492a27b203b8d1eadc460fe8f852e09110c26f0b86"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00241.csv",
+      "sha256": "cc855eaf1710cf9b923d9f0fc80bf87c48bfd4e6009bdf79f6e1404ff355d6fb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00241.json",
+      "sha256": "0bb8dad173f100009d52579fb8df5c0ff24c05d8410c280547dae37f32092998"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/seeds/refine_00242.csv",
+      "sha256": "cc855eaf1710cf9b923d9f0fc80bf87c48bfd4e6009bdf79f6e1404ff355d6fb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/results/refine_00242.json",
+      "sha256": "4c1071f2198d3465d90c6202bceeeb47419f34aa7a37ea4fa0573304ce25aaeb"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/trajectories/fault_tau1.16.csv.gz",
+      "sha256": "f1aa02926e00586f6ecad2fe24740a88145f57e797ec326648e61305062ee4f1"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/trajectories/fault_tau1.18.csv.gz",
+      "sha256": "5da32001e33ca074719fa589676c53c7018373b7cf4af1cc0999c385a474bfec"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/data/trajectories/fault_tau1.20.csv.gz",
+      "sha256": "832fbb733daa88a1fb4cdabdf4cdbf80d085ddc2a01b5dee4a0f4c43729aa332"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00240/post030.csv",
+      "sha256": "d925cfb406ffef72eed0bafa9e0c54a2b3e47e62db30b9ba159dee4422cd7826"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00240/post100.csv",
+      "sha256": "4ae7407b7493c9fccc2462202d89e740b27a7ef70ab74a98599b4708649bdf87"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00240/post1000.csv",
+      "sha256": "7065a7516fd20d017109f4374c1ff556063c7871355aa62ebb7bf31ff7d441d7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00240/post300.csv",
+      "sha256": "a44a72cddf6d5aba62b900a84697a39427c73c2c51191df4d50d0ed86ad6bde8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00240/post600.csv",
+      "sha256": "25f8a177c5fa3a9798b0eccff9b8a5cf50cf7aca2f98137ec9ea4fd918bea335"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00240/post900.csv",
+      "sha256": "2a57592a4846ce306d29f01244c7bd9a54e83d40acf97e48254a0656f2bf17dd"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00269/post030.csv",
+      "sha256": "21277023bc16893705611f7006380679aab827a29cbac0547858b1ceb2c63031"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00269/post100.csv",
+      "sha256": "e0d21ac7ad6bef84b0be63b53af598c4130583324e1f90af93dcd286ee55243d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00269/post1000.csv",
+      "sha256": "90752c628ee4ff149e9dfc0791a71f2a01ed112482948c0406047de80d701ad9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00269/post300.csv",
+      "sha256": "c18374876a31d8157fc97d85eca078e6cdf4bac06a7f697b412832fba3ecc27a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00269/post600.csv",
+      "sha256": "5a39faa801c0741f2bfd466293f86d33977fb9b743f8c49cf089f9ad759612d8"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00269/post900.csv",
+      "sha256": "130d2e51bd1ea59c459d060ed2283cd5ee51e408001c26a990698e4c86a52e9b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00241/post030.csv",
+      "sha256": "4f3a5bb05ad969cd8db095cc97ac4f7ab773b0cbf504b485ba38305ba39df4d3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00241/post100.csv",
+      "sha256": "5e5b5c238b70df680c07e40e62c477ef14247fafc63c798b8bd5506afc762aa3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00241/post1000.csv",
+      "sha256": "3f9316d5d84c5deb20f49f80a6152c62980690b94fdcb647eed3fed201b2859d"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00241/post300.csv",
+      "sha256": "2f4ce070ea54e60ad3649955d9ec64d61b77bb888f514c8f0945284d35288890"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00241/post600.csv",
+      "sha256": "82e063b1dba3523e00ac80e05bbcb7497395a9e8bf3a04656b6ba37dc23b154a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00241/post900.csv",
+      "sha256": "c0e0445fce76485186bba67e13ed281f125a3c048d897991e18222e68e8349de"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00273/post030.csv",
+      "sha256": "5e05841a347e569c10d9e578ebecc9f424313d82ca0ecdf95bc5d7a7cc2ab84a"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00273/post100.csv",
+      "sha256": "3d89b627ffd91fa30ef1c136638039879f18eae4493637ebf418e2a34120f78e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00273/post1000.csv",
+      "sha256": "79375363fe07bb312e4393a69ceddb45bad2a5af7445edf30b7aa4e79d8f081b"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00273/post300.csv",
+      "sha256": "7fd2302b65a2c516d25d99bf1a73b29637c0d6ee0bf8f705c5c257d314fd4042"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00273/post600.csv",
+      "sha256": "70bbd2c64fb0d9748bfdb58c6b68d7bffef6ddb316dc62f405b980cf586073b3"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00273/post900.csv",
+      "sha256": "34d535205c51411fe6220743616c43a7d2c6c1dbf91537c8a0234cd85937e221"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00242/post030.csv",
+      "sha256": "bee2ba3fd6cd699c812e9e14499ca3a347f8c0cda750f42a89dd05f028e68783"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00242/post100.csv",
+      "sha256": "40d2758d8239321ed16b7c8db8bcc9773024a9281abed2306ce5d4e379cb9a1e"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00242/post1000.csv",
+      "sha256": "717853db9854d8806a3675046e3cfadd3fe4950bbaf0fb890ca7fe561c602450"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00242/post300.csv",
+      "sha256": "52d0a828a2c6934b3c3172dda2118c65068ac0e0f329701f074d87311af220da"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00242/post600.csv",
+      "sha256": "c684ca00a1389a208154e5d497b2a6e2920e509cd87c8e134b2bf216b69a942f"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/refine_00242/post900.csv",
+      "sha256": "e8f9682a2b77a4ee3b4a70a60b247896eac3d6f8f425c8f1ea128724ac193919"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00277/post030.csv",
+      "sha256": "4342c51ee107c0b40051e1e3046ffe04ac8d6ca3167dd7ec575c3610ed120dba"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00277/post100.csv",
+      "sha256": "58dabdf4397b5d3869d0206108dc4e3c11a0636326aa4ce44a00324b1d199b20"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00277/post1000.csv",
+      "sha256": "bcbfa76aa2cf7ebf13befc15e832bb8b4f114bef721300e843958e50f328f705"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00277/post300.csv",
+      "sha256": "4f79def56494ee9be6ebf8917899affbfbdd8186af7f4c96a4865accb51a65e9"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00277/post600.csv",
+      "sha256": "6cf07d7990bc4e7bc6bbf6ebfb345b184e4e84b7608a59e88e502f4849a0fbe7"
+    },
+    {
+      "source": "studies/04_clearing/32_separated_equilibrium_basins/checkpoints/hidden_test_00277/post900.csv",
+      "sha256": "fba8b3e32d21c13048626b8b82e8c726112000759b02cf6c701a62defd9feca8"
+    }
+  ]
+}

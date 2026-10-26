@@ -1,0 +1,22 @@
+[
+  {
+    "source_case": "refine_00247",
+    "rerun_case": "saved_basin_refine_00247",
+    "expected_classification": "recovery",
+    "actual_classification": "recovery",
+    "horizon_s": 300.0,
+    "internal_turns": -0.21247109326280314,
+    "expected_internal_turns": -0.2124710932628155,
+    "absolute_turn_difference": 1.2351231148954867e-14
+  },
+  {
+    "source_case": "focus_00148",
+    "rerun_case": "saved_basin_focus_00148",
+    "expected_classification": "negative_running",
+    "actual_classification": "negative_running",
+    "horizon_s": 300.0,
+    "internal_turns": -43.0604745916491,
+    "expected_internal_turns": -43.06047459147742,
+    "absolute_turn_difference": 1.716742303869978e-10
+  }
+]
