@@ -1,0 +1,2 @@
+case,op,load_scale,P1,P2,P3,P7,taup,tauq,T,horizon,level
+nf02_1_p1.200_q0.02_T0.15,nf02_1,2.461761102780045,0.5,0.4,0.4,0.4,1.2,0.02,0.15,1000,A

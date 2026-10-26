@@ -1,0 +1,202 @@
+{
+  "original_study": "31_gradual_tau_search",
+  "parameter_set": "nf02_1",
+  "shared_snapshot": "provenance/source_snapshot",
+  "source_files": [
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/code/model.jl",
+      "destination": "code/model.jl",
+      "sha256": "f45a7efb48568e7d1d75bd83518257b11f233a2f86e0df2fc61d8808613c5bd9"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/code/run.jl",
+      "destination": "code/run.jl",
+      "sha256": "63ec6c6fb3901bfc5030949f268ddb6ed6e119330de34dc5b440362069d55915"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/code/engine12.jl",
+      "destination": "code/engine12.jl",
+      "sha256": "fddbda05728473e49ed6014b6f85ec63d25b024ae5152a07cfecba9f45b1a84f"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/code/observations12.py",
+      "destination": "code/observations12.py",
+      "sha256": "ccec1621b582c17e08b73d1772447d146fe0dbc45089a3f9bea1df39260a0e6f"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/code/classify.py",
+      "destination": "code/classify.py",
+      "sha256": "ed7729cde863cca636081f73ba28a9fe5682040ea8f890a209cdc1ae14b70d4a"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/code/summarize.py",
+      "destination": "code/summarize.py",
+      "sha256": "8793cd0f54745f60f69788a53c9953c4b679faf2c8da5397e3896c8b2fc00550"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/references/stable.csv",
+      "destination": "data/references/stable.csv",
+      "sha256": "239cca23e656ca941332398c6aef94cfca13e01b47dee9153553c3f1d53d2fc1"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/references/saddle.csv",
+      "destination": "data/references/saddle.csv",
+      "sha256": "fbf06c342bb46f850e1704a5295b20fce1741e7d392c1f5bb51848f55ec56876"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/references/post_parameters.csv",
+      "destination": "data/references/post_parameters.csv",
+      "sha256": "702ed47e9bf64843d8dbd12c5d17eb1b9c20e019fe90fff2ad83cc93555c9c0e"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/references/fixed_settings.csv",
+      "destination": "data/references/fixed_settings.csv",
+      "sha256": "e9870356fbddee89794751199305ca3ddfcda6151c159dab1cf6c2a013434fa5"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/seeds/nf02_1_pre0.csv",
+      "destination": "data/seeds/nf02_1_pre0.csv",
+      "sha256": "d4941b7ad2ff5545ae0a697629f21ebf449c1b78fecbca331eb86c019aadf3cc"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/seeds/nf02_1_post0.csv",
+      "destination": "data/seeds/nf02_1_post0.csv",
+      "sha256": "4fa80cda574fd5a9e11edfb7a1ea90d61a22360cb2ca4eb36910f5be3292322a"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/seeds/nf02_1_post1.csv",
+      "destination": "data/seeds/nf02_1_post1.csv",
+      "sha256": "f26011bff33c7c74475d977e17887ef817a23cf4ced42e1c5d2d031570c277c0"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/states.csv",
+      "destination": "data/states.csv",
+      "sha256": "4cd6fb7e9e76576fe46fa6365fe0d2e0a69e3895baa72c0c90c94bf682a75001"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.160_q0.02_T0.15/post100_end.csv",
+      "destination": "tests/reference/nf02_1_p1.160_q0.02_T0.15__post100_end.csv",
+      "sha256": "e44c2c0f379ad185d7da92b3e223c9bc331e1f717145983a6d3201d8716f016d"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.160_q0.02_T0.15/pre_end.csv",
+      "destination": "tests/reference/nf02_1_p1.160_q0.02_T0.15__pre_end.csv",
+      "sha256": "26f1e9d2789260331414517b17af0cc234281251e7a96ece99c46b7474b0a167"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.160_q0.02_T0.15/post300_end.csv",
+      "destination": "tests/reference/nf02_1_p1.160_q0.02_T0.15__post300_end.csv",
+      "sha256": "cf456265fcd246600bedb3946b07c27e9e1c693c0da33005a35ff37105e24881"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.160_q0.02_T0.15/post030_end.csv",
+      "destination": "tests/reference/nf02_1_p1.160_q0.02_T0.15__post030_end.csv",
+      "sha256": "bddafeb1de8c7b0997005fdee08dc39019cb1bcd9e8f9a4a0ef61be567fc9b1a"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.160_q0.02_T0.15/fault_end.csv",
+      "destination": "tests/reference/nf02_1_p1.160_q0.02_T0.15__fault_end.csv",
+      "sha256": "ca97fff13945e66ab570bc9d9925e0138f02db6e9e7c010814bffb78d0bddcb4"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/results/nf02_1_p1.160_q0.02_T0.15.json",
+      "destination": "tests/reference/nf02_1_p1.160_q0.02_T0.15.json",
+      "sha256": "ced52c1176d855035debbe2623ee9ece299cce7389cee6a87ef84a192f1ca5bf"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.180_q0.02_T0.15/post100_end.csv",
+      "destination": "tests/reference/nf02_1_p1.180_q0.02_T0.15__post100_end.csv",
+      "sha256": "ca2a7823ccc6961ca01172ee05d4d8039d340c95f6955f2f61d1d051df6b5ada"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.180_q0.02_T0.15/pre_end.csv",
+      "destination": "tests/reference/nf02_1_p1.180_q0.02_T0.15__pre_end.csv",
+      "sha256": "3a834d2b2b68e2a3916028c8d907bd224cb8b558d1b338b106ed9e417df5949b"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.180_q0.02_T0.15/post300_end.csv",
+      "destination": "tests/reference/nf02_1_p1.180_q0.02_T0.15__post300_end.csv",
+      "sha256": "ae75471bd10fd98009c096eb37f7b65b2446d7699ec6091e3924f273cef0e079"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.180_q0.02_T0.15/post030_end.csv",
+      "destination": "tests/reference/nf02_1_p1.180_q0.02_T0.15__post030_end.csv",
+      "sha256": "53f3064f2ac64953040db5a7708f0c0038d90b5b8ac8f4791023c16035a3ca53"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.180_q0.02_T0.15/fault_end.csv",
+      "destination": "tests/reference/nf02_1_p1.180_q0.02_T0.15__fault_end.csv",
+      "sha256": "cd734e8bbcffd88dede6568c9f847d045089a7e09613bb17c559c3bb62f48f93"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/results/nf02_1_p1.180_q0.02_T0.15.json",
+      "destination": "tests/reference/nf02_1_p1.180_q0.02_T0.15.json",
+      "sha256": "bfd4d532d6793b22db672854d44d0754dc21f32dba29fe182125d11fa4dcf451"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/post600_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__post600_end.csv",
+      "sha256": "2b7486cd3f9463b6a8b34b8900b220c12b30bf36a28fea582e5ed33cd2955040"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/post100_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__post100_end.csv",
+      "sha256": "7de959ee1bec1f2d181929e2e7f593dceab50e13eb60eb04b42af9a10153ddbd"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/pre_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__pre_end.csv",
+      "sha256": "b4e0b0be704445dee242a95e53f9aaca4f82b2006b9a7d9259f6c560c9664e08"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/post1000_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__post1000_end.csv",
+      "sha256": "9381c09a0aa0fbb9d031e0a82ac63438b7751c49716f23fff9c88c19993cbf71"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/post300_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__post300_end.csv",
+      "sha256": "b34a3a7202a61bdbfb97d992eff2f871947b06d8a10a00ffafb34f128bc57d54"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/post030_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__post030_end.csv",
+      "sha256": "4c1402ece1a0da347401cc6e0d9553ca738da436dba23152680ab564db1b6df6"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/fault_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__fault_end.csv",
+      "sha256": "71453ac54ba5a424b7a4d44d2ce654517b418f87cf475b305c25106730e4528e"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/checkpoints/nf02_1_p1.200_q0.02_T0.15/post900_end.csv",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15__post900_end.csv",
+      "sha256": "2e81e0a431a4f188647f5e0a01fd5ad97b3ff99aca3b2cdd7ff58c41e5bccf84"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/results/nf02_1_p1.200_q0.02_T0.15.json",
+      "destination": "tests/reference/nf02_1_p1.200_q0.02_T0.15.json",
+      "sha256": "2f19d93347fd02bcb25adc8376974136d3598a4190b0743cba1b815c0478ad1a"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/data/numerical_comparison.csv",
+      "destination": "tests/reference/original_numerical_comparison.csv",
+      "sha256": "2bf2664edf59bad68f86872c214a39b320f8ca378cb0f33015eab9a2636111c8"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/CAPTIONS.md",
+      "destination": "docs/CAPTIONS.md",
+      "sha256": "32079e227ef9c59efd8e57949591b3c4da6da961324ada14901044eab63b988e"
+    },
+    {
+      "source": "studies/04_clearing/31_gradual_tau_search/AXES.md",
+      "destination": "docs/AXES.md",
+      "sha256": "ff4d8e8d4969b5f59c13e14461c49c9fccc98c5ec8793a5fe4a88addfabf4f54"
+    }
+  ],
+  "adaptations": [
+    "Paths adjusted for a standalone repository; numerical model unchanged.",
+    "Configuration checks, endpoint validation, and plotting added for sharing."
+  ],
+  "model_source_repository": "https://github.com/hashima0205/gfm-deceleration-simulation/tree/22a1581b7e3807ab7edcd332e9210e1301597258"
+}
