@@ -1,0 +1,16 @@
+{
+  "case_count": 8,
+  "root_count": 10,
+  "all_found_roots_locally_stable": true,
+  "classifications": {
+    "negative_running": 7,
+    "recovery": 1
+  },
+  "max_root_residual": 1.0440582892651923e-09,
+  "max_voltage_target_error": 9.715763631401586e-07,
+  "baseline_full_state_errors": {
+    "tau0.1_clearing": 0.0,
+    "tau0.1_end150": 7.460698725481052e-14,
+    "tau1.2_clearing": 0.0
+  }
+}

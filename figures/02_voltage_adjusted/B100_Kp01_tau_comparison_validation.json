@@ -1,0 +1,140 @@
+{
+  "B_pu": 1.0,
+  "k": 0.6812730259441179,
+  "pre_V5_pu": 0.9965943238872704,
+  "post_eq_V5_pu": 0.8570833938482748,
+  "root_checks": [
+    {
+      "root": "pre",
+      "independent_residual": 8.271161533457416e-15
+    },
+    {
+      "root": "stable",
+      "independent_residual": 1.099120794378905e-14
+    },
+    {
+      "root": "saddle",
+      "independent_residual": 6.439293542825908e-15
+    }
+  ],
+  "max_full_root_residual": 5.455355542963119e-11,
+  "between_tau_initial_state_difference": 0.0,
+  "basins": {
+    "0.5": {
+      "points": 83,
+      "counts": {
+        "same": 50,
+        "unknown": 22,
+        "shift": 10,
+        "saddle": 1
+      },
+      "horizons": {
+        "30.0": 5,
+        "60.0": 2,
+        "150.0": 30,
+        "300.0": 46
+      },
+      "max_algebraic_residual": 4.7327919361350717e-11
+    },
+    "1.0": {
+      "points": 83,
+      "counts": {
+        "same": 43,
+        "negative": 35,
+        "unknown": 4,
+        "saddle": 1
+      },
+      "horizons": {
+        "30.0": 19,
+        "60.0": 11,
+        "150.0": 39,
+        "300.0": 14
+      },
+      "max_algebraic_residual": 4.7327919361350717e-11
+    }
+  },
+  "clearing_section_checks": [
+    {
+      "taup": 0.5,
+      "clearing_alpha": -42.264376128488585,
+      "clearing_df_Hz": -0.0266572570332288,
+      "unequal_differential_states": 52
+    },
+    {
+      "taup": 1.0,
+      "clearing_alpha": -42.46554992373382,
+      "clearing_df_Hz": -0.0144028088268773,
+      "unequal_differential_states": 52
+    }
+  ],
+  "event_classifications": {
+    "0.5": "recovery",
+    "1.0": "recovery"
+  },
+  "mp_common": 0.01,
+  "reference_mp_common": 0.02,
+  "baseline_post150_max_full_state_difference": 0.0,
+  "gain_comparison": {
+    "0.5": {
+      "mp01_counts": {
+        "same": 50,
+        "unknown": 22,
+        "shift": 10,
+        "saddle": 1
+      },
+      "mp02_counts": {
+        "same": 52,
+        "negative": 30,
+        "saddle": 1
+      },
+      "matched_full_state_points": 48,
+      "max_matched_full_state_difference": 0.0
+    },
+    "1.0": {
+      "mp01_counts": {
+        "same": 43,
+        "negative": 35,
+        "unknown": 4,
+        "saddle": 1
+      },
+      "mp02_counts": {
+        "negative": 46,
+        "same": 36,
+        "saddle": 1
+      },
+      "matched_full_state_points": 48,
+      "max_matched_full_state_difference": 0.0
+    }
+  },
+  "coordinate_convention": "Same phase/frequency grid across gains requires different Pf offsets; invariant-state comparison uses Pset-Pf.",
+  "all_event_outcomes": [
+    {
+      "case": "B100_Kp02_tau050",
+      "mp_common": 0.02,
+      "taup": 0.5,
+      "classification": "recovery",
+      "horizon_s": 300.0
+    },
+    {
+      "case": "B100_Kp02_tau100",
+      "mp_common": 0.02,
+      "taup": 1.0,
+      "classification": "negative_running",
+      "horizon_s": 300.0
+    },
+    {
+      "case": "B100_Kp01_tau050",
+      "mp_common": 0.01,
+      "taup": 0.5,
+      "classification": "recovery",
+      "horizon_s": 300.0
+    },
+    {
+      "case": "B100_Kp01_tau100",
+      "mp_common": 0.01,
+      "taup": 1.0,
+      "classification": "recovery",
+      "horizon_s": 300.0
+    }
+  ]
+}

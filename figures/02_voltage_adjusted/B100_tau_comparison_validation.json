@@ -1,0 +1,72 @@
+{
+  "B_pu": 1.0,
+  "k": 0.6812730259441179,
+  "pre_V5_pu": 0.9965943238872704,
+  "post_eq_V5_pu": 0.8570833938482748,
+  "root_checks": [
+    {
+      "root": "pre",
+      "independent_residual": 8.271161533457416e-15
+    },
+    {
+      "root": "stable",
+      "independent_residual": 1.099120794378905e-14
+    },
+    {
+      "root": "saddle",
+      "independent_residual": 6.439293542825908e-15
+    }
+  ],
+  "max_full_root_residual": 5.455355542963119e-11,
+  "between_tau_initial_state_difference": 0.0,
+  "basins": {
+    "0.5": {
+      "points": 83,
+      "counts": {
+        "same": 52,
+        "negative": 30,
+        "saddle": 1
+      },
+      "horizons": {
+        "30.0": 22,
+        "60.0": 15,
+        "150.0": 41,
+        "300.0": 5
+      },
+      "max_algebraic_residual": 4.7327919361350717e-11
+    },
+    "1.0": {
+      "points": 83,
+      "counts": {
+        "negative": 46,
+        "same": 36,
+        "saddle": 1
+      },
+      "horizons": {
+        "30.0": 36,
+        "60.0": 13,
+        "150.0": 28,
+        "300.0": 6
+      },
+      "max_algebraic_residual": 4.7327919361350717e-11
+    }
+  },
+  "clearing_section_checks": [
+    {
+      "taup": 0.5,
+      "clearing_alpha": -41.84373969584523,
+      "clearing_df_Hz": -0.0528238875878543,
+      "unequal_differential_states": 52
+    },
+    {
+      "taup": 1.0,
+      "clearing_alpha": -42.24330347735585,
+      "clearing_df_Hz": -0.0286720142047711,
+      "unequal_differential_states": 52
+    }
+  ],
+  "event_classifications": {
+    "0.5": "recovery",
+    "1.0": "negative_running"
+  }
+}

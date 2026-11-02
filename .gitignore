@@ -1,6 +1,9 @@
 /checkpoints/
 /logs/
-/figures/
+/figures/*
+!/figures/README.md
+!/figures/01_original/
+!/figures/02_voltage_adjusted/
 /data/results/
 /data/cases.csv
 /data/equilibria.csv
