@@ -1,0 +1,11 @@
+{
+  "case_count": 25,
+  "classifications": {
+    "recovery": 25
+  },
+  "all_pre_post_roots_stable": true,
+  "max_root_residual": 6.165719576661495e-10,
+  "max_independent_steady_residual": 4.418687638008123e-14,
+  "max_nodal_residual": 8.973810241197013e-11,
+  "negative_example": null
+}

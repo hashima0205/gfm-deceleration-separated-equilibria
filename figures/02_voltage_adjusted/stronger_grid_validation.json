@@ -1,0 +1,52 @@
+{
+  "event_count": 6,
+  "verified_full_equilibria": 18,
+  "maximum_root_residual": 2.285577092923386e-11,
+  "independent_steady_residual": 1.3711254354120683e-14,
+  "changed_parameters": "Only four R/X entries of lines 4-6 and 5-6; ratios k/1.0299",
+  "basins": {
+    "tau0.1": {
+      "points": 55,
+      "counts": {
+        "same": 34,
+        "shift": 20,
+        "saddle": 1
+      },
+      "horizons": {
+        "30.0": 28,
+        "60.0": 24,
+        "150.0": 3
+      }
+    },
+    "tau1.2": {
+      "points": 55,
+      "counts": {
+        "negative": 36,
+        "same": 18,
+        "saddle": 1
+      },
+      "horizons": {
+        "30.0": 48,
+        "60.0": 6,
+        "150.0": 1
+      }
+    }
+  },
+  "between_tau_initial_state_difference": 0.0,
+  "clearing_section_checks": [
+    {
+      "taup": 0.1,
+      "clearing_alpha": -3.9166746964538794,
+      "clearing_df_Hz": -0.1328316215464167,
+      "unequal_differential_states": 52,
+      "max_raw_mixed_unit_difference": 0.7713245924604537
+    },
+    {
+      "taup": 1.2,
+      "clearing_alpha": -4.157731339100933,
+      "clearing_df_Hz": -0.0216746004872378,
+      "unequal_differential_states": 52,
+      "max_raw_mixed_unit_difference": 0.8479394545431207
+    }
+  ]
+}

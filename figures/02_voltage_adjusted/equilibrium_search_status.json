@@ -1,0 +1,16 @@
+{
+  "B_pu": 0.5561806200995012,
+  "seed_count": 642,
+  "distinct_reduced_roots": 0,
+  "minimum_multistart_residual": 0.03181254540780354,
+  "maximum_validation_residual": 4.107825191113079e-14,
+  "nonexistence_proven": false,
+  "local_fold_B_pu": 0.004281334916654725,
+  "fold_augmented_residual": 4.3056158638421493e-10,
+  "basin_computed": false,
+  "basin_status": "No verified post-fault stable equilibrium at requested B; cannot label a recovery basin.",
+  "fold_smallest_singular_value": 2.245620647537862e-10,
+  "fold_next_singular_value": 0.7977266655888069,
+  "fold_transversality": -0.12451596152427241,
+  "fold_curvature": -0.07472071823802001
+}

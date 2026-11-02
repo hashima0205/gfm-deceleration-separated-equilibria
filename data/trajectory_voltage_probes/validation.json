@@ -1,0 +1,22 @@
+{
+  "neighborhood_counts": {
+    "t=0s/same": 25,
+    "t=1s/same": 25,
+    "t=3s/same": 25,
+    "t=10s/same": 25
+  },
+  "neighborhood_horizons": {
+    "30.0": 4,
+    "60.0": 94,
+    "150.0": 2
+  },
+  "max_center_full_state_difference": 1.199040866595169e-13,
+  "max_neighborhood_algebraic_residual": 2.1371793224034263e-15,
+  "voltage_case_count": 8,
+  "all_voltage_equilibria_locally_stable": true,
+  "baseline_full_state_errors": {
+    "load100_tau010_clearing": 0.0,
+    "load100_tau120_clearing": 0.0,
+    "load100_tau010_post150": 7.460698725481052e-14
+  }
+}
